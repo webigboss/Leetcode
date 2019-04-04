@@ -21,6 +21,12 @@ public class Solution {
     
     private void FlattenRecursive(TreeNode n, ref TreeNode current){
         //preorder recursion
+        
+        /*used ref keyword to make sure the pointer change:
+         current = current.right;
+        made in the left recursion call can be recorgnized in the later on
+        recursion call for the right node
+         */
         if(n == null)
             return;
         

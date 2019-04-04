@@ -16,3 +16,6 @@
 106|Construct Binary Tree from Inorder and Postorder Traversal|Medium|3/31/2019|Inspired only by idea(developed code independently)|Recursion|||
 114|Flatten Binary Tree to Linked List|Medium|4/1/2019|Yes|Preorder traversal (Recursion)|||
 129|Sum Root to Leaf Numbers|Medium|4/1/2019|Yes|Preorder traversal (Recursion)|||
+144|Binary Tree Postorder Traversal|Medium|4/2/2019|Yes|Recursion / Iteration|||
+145|Binary Tree Postorder Traversal|Hard|4/2/2019|No|Recursion / Iteration|||
+226|Invert Binary Tree|Easy|4/3/2019|Yes|Recursion|||
