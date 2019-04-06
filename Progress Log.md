@@ -2,6 +2,9 @@
 
 #|Title|Difficulty|Solved Date|Resolved Independently?|Original Solution|Other Solution Accepted|Revisite Date|Different Solution Follow-up
 ---|---|---|---|---|---|---|---|---
+102|Binary Tree Level Order Traversal|Medium|3/23/2019|No|Level Order traversal (Recursion) O(n^2)||4/5/2019|Level Order Traversal by Queue, Time complexity is O(n)
+107|Binary Tree Level Order Traversal II|Medium|3/23/2019|No|Level Order traversal (Recursion) O(n^2)|||
+||||||||
 110|Balanced Binary Tree|Easy|3/25/2019|Yes|Recursion+Binary Search|||
 111|Minimum Depth of Binary Tree|Easy|3/26/2019|Yes|Recursion|||
 112|Path Sum|Easy|3/27/2019|Yes|Recursion|||
