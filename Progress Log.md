@@ -27,3 +27,7 @@
 173|Binary Search Tree Iterator|Medium|4/4/2019|Yes|Inorder traversal (Interative)|||
 199|Binary Tree Right Side View|Medium|4/4/2019|Yes|Level Order traversal (Recursion)|||not too fast, need to explore other solutions
 222|Count Complete Tree Nodes|Medium|4/5/2019|Yes|Recursion O(n) / Binary Search O(log(n)^2)|||need to check  the iterative binary search
+11|Container With Most Water|Medium|4/6/2019|No|Two Pointers alike (not based on sorting array actually, just have two pointers)|||
+12|Integer to Roman|Medium|4/6/2019|Yes|Specific to problem|||
+17|Letter Combinations of a Phone Number|Medium|4/7/2019|No|recursion|||
+18|4Sum|Medium|4/7/2019|No|2sum and 3sum |||
