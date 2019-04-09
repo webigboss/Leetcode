@@ -31,3 +31,5 @@
 12|Integer to Roman|Medium|4/6/2019|Yes|Specific to problem|||
 17|Letter Combinations of a Phone Number|Medium|4/7/2019|No|recursion|||
 18|4Sum|Medium|4/7/2019|No|2sum and 3sum |||
+39|Combination Sum|Medium|4/8/2019|No|Backtracking|||
+31|Next Permutation|Medium|4/8/2019|Inspired only by idea(developed code independently)|Specific to problem|||No need to use Array.Sort, because it is really a reverse of all the elements is needed. Explore backtracking solution at https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)
