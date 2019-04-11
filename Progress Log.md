@@ -35,3 +35,5 @@
 31|Next Permutation|Medium|4/8/2019|Inspired only by idea(developed code independently)|Specific to problem|||No need to use Array.Sort, because it is really a reverse of all the elements is needed. Explore backtracking solution at [here](https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning))
 46|Permutations|Medium|4/9/2019|Yes|Backtracking|||
 47|Permutations II|Medium|4/9/2019|Yes|Backtracking|||only faster than 20%, need to think of a way to get rid of usedIndexes, refer to other's solution could use a bool array.
+40|Combination Sum II|Medium|4/10/2019|Yes|Backtracking|||
+22|Generate Parentheses|Medium|4/10/2019|Yes|Backtracking|||this problem is leveled my understanding of backtracking
