@@ -37,3 +37,6 @@
 47|Permutations II|Medium|4/9/2019|Yes|Backtracking||4/11/2019|only faster than 20%, need to think of a way to get rid of usedIndexes, refer to other's solution could use a bool array. 4/11/2019: rewrite the solution with bool[] to mark the used element
 40|Combination Sum II|Medium|4/10/2019|Yes|Backtracking|||
 22|Generate Parentheses|Medium|4/10/2019|Yes|Backtracking|||this problem is leveled my understanding of backtracking
+60|Permutation Sequence|Medium|4/11/2019|Yes|Backtracking/Specific calculation|||backtracking is not suitable for this problem in terms of time
+77|Combinations|Medium|4/12/2019|Yes|Backtracking|||
+78|Subsets|Medium|4/12/2019|Yes|Backtracking|||
