@@ -32,7 +32,7 @@
 17|Letter Combinations of a Phone Number|Medium|4/7/2019|No|recursion|||
 18|4Sum|Medium|4/7/2019|No|2sum and 3sum |||
 39|Combination Sum|Medium|4/8/2019|No|Backtracking|||
-31|Next Permutation|Medium|4/8/2019|Inspired only by idea(developed code independently)|Specific to problem|||No need to use Array.Sort, because it is really a reverse of all the elements is needed. Explore backtracking solution at https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)
+31|Next Permutation|Medium|4/8/2019|Inspired only by idea(developed code independently)|Specific to problem|||No need to use Array.Sort, because it is really a reverse of all the elements is needed. Explore backtracking solution at [here](https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning))
 46|Permutations|Medium|4/9/2019|Yes|Backtracking|||
 47|Permutations II|Medium|4/9/2019|Yes|Backtracking||4/11/2019|only faster than 20%, need to think of a way to get rid of usedIndexes, refer to other's solution could use a bool array. 4/11/2019: rewrite the solution with bool[] to mark the used element
 40|Combination Sum II|Medium|4/10/2019|Yes|Backtracking|||
@@ -40,3 +40,4 @@
 60|Permutation Sequence|Medium|4/11/2019|Yes|Backtracking/Specific calculation|||backtracking is not suitable for this problem in terms of time
 77|Combinations|Medium|4/12/2019|Yes|Backtracking|||
 78|Subsets|Medium|4/12/2019|Yes|Backtracking|||
+89|Gray Code|Medium|4/12/2019|yes|Backtracking/Specific calculation|||follow up with other speficic calculate at [here](https://zh.wikipedia.org/wiki/%E6%A0%BC%E9%9B%B7%E7%A0%81)
