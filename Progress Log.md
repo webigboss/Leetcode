@@ -43,3 +43,5 @@
 89|Gray Code|Medium|4/12/2019|yes|Backtracking/Specific calculation|||follow up with other speficic calculate at [here](https://zh.wikipedia.org/wiki/%E6%A0%BC%E9%9B%B7%E7%A0%81)
 79|Word Search|Medium|4/13/2019|Yes|Backtracking|||time and space is horrible, need to improve
 90|Subsets II|Medium|4/13/2019|Yes|Backtracking|||
+93|Restore IP Addresses|Medium|4/14/2019|Yes|Backtracking|||
+131|Palindrome Partitioning|Medium|4/14/2019|Inspired only by idea(developed code independently)|Backtracking|||I think my solution is shorter than the answer with highest votes
