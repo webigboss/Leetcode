@@ -46,4 +46,6 @@
 93|Restore IP Addresses|Medium|4/15/2019|Yes|Backtracking|||
 131|Palindrome Partitioning|Medium|4/15/2019|Inspired only by idea(developed code independently)|Backtracking|||I think my solution is shorter than the answer with highest votes
 33|Search in Rotated Sorted Array|Medium|4/17/2019|Inspired only by idea(developed code independently)|Binary Search|||time complexity O(log(n))
-81|Search in Rotated Sorted Array II|Medium|4/17/2019|Inspired only by idea(developed code independently)|Binary Search|||time complexity O(log(n)), worst case O(n) 
+81|Search in Rotated Sorted Array II|Medium|4/17/2019|Inspired only by idea(developed code independently)|Binary Search|||time complexity O(log(n)), worst case O(n)
+34|Find First and Last Position of Element in Sorted Array|Medium|4/17/2019|Yes|Binary Search|||
+50|Pow(x, n)|Medium|4/17/2019|Yes|Binary Search|||
