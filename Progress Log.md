@@ -52,4 +52,5 @@
 153|Find Minimum in Rotated Sorted Array|Medium|4/18/2019|Yes|Binary Search|||
 162|Find Peak Element|Medium|4/18/2019|Yes|Binary Search|||
 74|Search a 2D Matrix|Medium|4/19/2019|Yes|Binary Search|||time complexity is O(log(n)+log(m)), better than conceptually map the matrix to a 1 dimension array and do the binary search has time complexity O(log(n*m))
-240|Search a 2D Matrix II|Medium|4/19/2019|No|Liner checking|||time complexity is O(n+m), not the optimal solution, check cracking the code interview 6th version chapter 10.9 for the binary search solution to archive logarithm time complexity 
+240|Search a 2D Matrix II|Medium|4/19/2019|No|Liner checking|||time complexity is O(n+m), not the optimal solution, check cracking the code interview 6th version chapter 10.9 for the binary search solution to archive logarithm time complexity
+167|Two Sum II - Input array is sorted|Medium|4/20/2019|Inspired only by idea(developed code independently)|Two Pointers|||time complexity O(n), space complexity O(1), vs hashtable solution time complexity O(n), space complexity O(n), no better binary search solution found.
