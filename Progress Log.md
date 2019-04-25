@@ -59,3 +59,5 @@
 61|Rotate List|Medium|4/21/2019|Yes|Two Pointers alike (not based on sorting array actually, just have two pointers)|||two pass algorithm, time complexity O(n), space complexity is constant O(1). Is there a one pass algorithm?
 24|Swap Nodes in Pairs|Medium|4/22/2019|Yes|Two Pointers alike (not based on sorting array actually, just have two pointers)|||one pass algorithm, Time complexity O(n), space complexity O(1)
 75|Sort Colors|Medium|4/22/2019|No|Counting Sort|||two pass algorithm, time complexity O(n), space complexity is constant O(1). There is a QuickSort solution which is O(nlog(n)) but is one pass: [here](https://leetcode.com/problems/sort-colors/discuss/26549/Java-solution-both-2-pass-and-1-pass)
+80|Remove Duplicates from Sorted Array II|Medium|4/23/2019|Yes|Two Pointers alike (not based on sorting array actually, just have two pointers)|||
+86|Partition List|Medium|4/24/2019|No|Two Pointers alike (not based on sorting array actually, just have two pointers)|||TC: O(n), SC: O(1)
