@@ -63,3 +63,4 @@
 86|Partition List|Medium|4/24/2019|No|Two Pointers alike (not based on sorting array actually, just have two pointers)|||TC: O(n), SC: O(1)
 48|Rotate Image|Medium|4/25/2019|No|Specific to problem|||
 49|Group Anagrams|Medium|4/26/2019|No|Specific to problem|||
+32|Longest Valid Parentheses|Hard|4/27/2019|No|Stack & DP|||TC: O(n), SC: O(n) for both Stack and DP solution
