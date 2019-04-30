@@ -67,3 +67,5 @@
 142|Linked List Cycle II|Medium|4/27/2019|Yes for HT, No for TP|Hashtable & Two Pointer|||Hashtable: TC: O(n), SC: O(n); Two Ponters: TC: O(n)?, SC: O(1)
 23|Merge k Sorted Lists|Hard|4/28/2019|Inspired only by idea(developed code independently)|Specific to problem|||TC: O(nk), SC: O(1), k is the count of list array. My solution seems to be better than official solution 2. because save min value in a list so I can make sure one iterration will get all the nodes with min val, instead of interating min vals multiple times. Follow-up: check solution 3, under stand priority queue (heap)
 55|Jump Game|Medium|4/28/2019|No|Backtracking & DP Top down & DP Buttom up & Greedy|||the solution article is brilliant
+54|Spiral Matrix|Medium|4/29/2019|Yes|Specific to problem|||TC: O(n), SC: O(n)
+56|Merge Intervals|Medium|4/29/2019|Yes|Bubble Sort|||TC: O(n^2), SC: O(1). Try other more efficient sorting algorithm. Like heapsort, quicksort, mergesort, etc.
