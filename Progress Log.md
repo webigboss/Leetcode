@@ -71,3 +71,5 @@
 56|Merge Intervals|Medium|4/29/2019|Yes|Bubble Sort|||TC: O(n^2), SC: O(1). Try other more efficient sorting algorithm. Like heapsort, quicksort, mergesort, etc.
 59|Spiral Matrix II|Medium|4/30/2019|Yes|Specific to problem|||TC: O(n), SC: O(n)
 62|Unique Paths|Medium|4/30/2019|No|Math & DP|||Math: O(n), SC O(1), DP: O(n^2), SC: O(n^2), DP solution can optimize the space complexity.
+36|Valid Sudoku|Medium|5/1/2019|Yes|Hashtable|||
+82|Remove Duplicates from Sorted List II|Medium|5/1/2019|Yes|3 Pointers|||TC: O(n), SC: O(1), one pass algorithm
