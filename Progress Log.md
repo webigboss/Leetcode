@@ -73,3 +73,5 @@
 62|Unique Paths|Medium|4/30/2019|No|Math & DP|||Math: O(n), SC O(1), DP: O(n^2), SC: O(n^2), DP solution can optimize the space complexity.
 36|Valid Sudoku|Medium|5/1/2019|Yes|Hashtable|||
 82|Remove Duplicates from Sorted List II|Medium|5/1/2019|Yes|3 Pointers|||TC: O(n), SC: O(1), one pass algorithm
+206|Reverse Linked List|Easy|5/2/2019|Yes|Iteration & Recursion|||Iteration: TC: O(n), SC: O(1); Recursion: TC: O(n), SC: O(n)
+92|Reverse Linked List II|Medium|5/2/2019|Yes|Iteration|||Iteration: TC: O(n), SC: O(1)
