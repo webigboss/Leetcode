@@ -78,3 +78,4 @@
 109|Convert Sorted List to Binary Search Tree|Medium|5/3/2019|Yes|Recursion|||TC: O(n), SC: O(n), same as official solution 2
 138|Copy List with Random Pointer|Medium|5/3/2019|Yes|Hashtable|||TC: O(n), SC  O(n). There is a optimized solution which will archive SC O(1)
 143|Reorder List|Medium|5/4/2019|Yes|covert to list|||TC: O(n), SC  O(n). There is a optimized solution which find the mid of the linkedlist first, reverse the sencond part and finally reorder the linked list. Without using list make its SC constant O(1)
+147|Insertion Sort List|Medium|5/4/2019|Yes|Specific to problem|||TC: O(n), SC  O(1)
