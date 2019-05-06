@@ -19,7 +19,8 @@ public class Solution {
             if(sortPointer == null)
                     break;
             if(cur == sortPointer){
-                //don't find place to insert sortPointer before cur reaching sortPointer, meaning the value of sortPointer is greater than any values                 //in the sorted list, move shift both sortPointer and prevSortPointer left by 1 step.
+                //don't find place to insert sortPointer before cur reaching sortPointer, meaning the value of sortPointer is greater than any values                 
+                //in the sorted list, move shift both sortPointer and prevSortPointer left by 1 step.
                 sortPointer = sortPointer.next;
                 prevSortPointer = prevSortPointer.next;
                 prev = dummyHead;
