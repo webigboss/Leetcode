@@ -80,3 +80,5 @@
 143|Reorder List|Medium|5/4/2019|Yes|covert to list|||TC: O(n), SC  O(n). There is a optimized solution which find the mid of the linkedlist first, reverse the sencond part and finally reorder the linked list. Without using list make its SC constant O(1)
 147|Insertion Sort List|Medium|5/4/2019|Yes|Specific to problem|||TC: O(n), SC  O(1)
 148|Sort List|Medium|5/5/2019|No|Merge Sort|||TC: O(nlog(n)), SC: O(log(n)), this problem asks for constant space complexiy, so optimal solution seems to be a bottom-up merge sort. Worth checking this [one](https://leetcode.com/problems/sort-list/discuss/239384/Java-Real-O(1)-space-No-recursion-only-iterative-merge-sort-with-full-comments)
+160|Intersection of Two Linked Lists|Easy|5/6/2019|Yes for HT, No for TP|Hashtable & Two Pointer|||Hashtable: TC: O(m+n), SC: O(m) or O(n); Two Pointers: TC O(n+m), SC: O(1)
+234|Palindrome Linked List|Easy|5/6/2019|Inspired only by idea(developed code independently)|Two Pointers|||TC: O(n); SC O(1)
