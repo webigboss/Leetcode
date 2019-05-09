@@ -82,3 +82,6 @@
 148|Sort List|Medium|5/5/2019|No|Merge Sort|||TC: O(nlog(n)), SC: O(log(n)), this problem asks for constant space complexiy, so optimal solution seems to be a bottom-up merge sort. Worth checking this [one](https://leetcode.com/problems/sort-list/discuss/239384/Java-Real-O(1)-space-No-recursion-only-iterative-merge-sort-with-full-comments)
 160|Intersection of Two Linked Lists|Easy|5/6/2019|Yes for HT, No for TP|Hashtable & Two Pointer|||Hashtable: TC: O(m+n), SC: O(m) or O(n); Two Pointers: TC O(n+m), SC: O(1)
 234|Palindrome Linked List|Easy|5/6/2019|Inspired only by idea(developed code independently)|Two Pointers|||TC: O(n); SC O(1)
+237|Delete Node in a Linked List|Easy|2019/5/7|Yes|Specific to problem|||TC: O(n); SC: O(1), official solution is optimal that archives TC O(1)
+63|Unique Paths II|Medium|2019/5/7|Yes|DP|||TC: O(m*n), SC: O(m*n), official solution doesn’t create a dp array but use the modify the obstacalGrid in place so it can archive SC O(1) 
+43|Multiply Strings|Medium|2019/5/8|No|Specific to problem, Math|||TC: O(m*n), SC: O(m+n)
