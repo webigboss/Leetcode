@@ -85,3 +85,6 @@
 237|Delete Node in a Linked List|Easy|2019/5/7|Yes|Specific to problem|||TC: O(n); SC: O(1), official solution is optimal that archives TC O(1)
 63|Unique Paths II|Medium|2019/5/7|Yes|DP|||TC: O(m*n), SC: O(m*n), official solution doesn’t create a dp array but use the modify the obstacalGrid in place so it can archive SC O(1) 
 43|Multiply Strings|Medium|2019/5/8|No|Specific to problem, Math|||TC: O(m*n), SC: O(m+n)
+64|Minimum Path Sum|Medium|2019/5/9|Yes|DP|||TC: O(m*n), SC: O(m*n), the dp 2D array could be ingored to use jagged array grid, to archive SC O(1) 
+71|Simplify Path|Medium|2019/5/9|Yes|Stack|||TC: O(n), SC: O(n)
+73|Set Matrix Zeroes|Medium|2019/5/9|inspired only by idea(developed code independently)|In Place Algorithm|||TC: O(m*n), SC: O(1)
