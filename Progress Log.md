@@ -93,3 +93,5 @@
 152|Maximum Product Subarray|Medium|5/11/2019|No|DP|||TC: O(n), SC:O(1). Solution explaination [here](https://leetcode.com/problems/maximum-product-subarray/discuss/48230/Possibly-simplest-solution-with-O(n)-time-complexity/181239)
 51|N-Queens|Hard|5/11/2019|Yes|Backtracking|||
 52|N-Queens II|Hard|5/11/2019|Yes|Backtracking|||
+169|Majority Element|Easy|2019-05-12|Yes|Sorting / Hashtable / Divide & Conquer|||Sorting: TC: O(nlogn), SC: O(1); Hashtable: TC: O(n), SC: O(n); Divide & Conquer: TC: O(nlogn), SC: O(logn)
+189|Rotate Array|Easy|2019-05-12|Yes|Queue / Array / Reverse|||Queue & Array TC: O(n), SC: O(n); Reverse: TC: O(n), SC: O(1)
