@@ -97,3 +97,6 @@
 189|Rotate Array|Easy|2019-05-12|Yes|Queue / Array / Reverse|||Queue & Array TC: O(n), SC: O(n); Reverse: TC: O(n), SC: O(1)
 216|Combination Sum III|Medium|2019/5/13|Yes|Backtracking|||
 8|String to Integer (atoi)|Medium|2019/5/13|Yes|Specific to problem|||
+165|Compare Version Numbers|Medium|5/14/2019|Yes|Spefific to problem|||
+168|Excel Sheet Column Title|Easy|5/14/2019|Yes|Math|||TC: O(k) k = n/26; SC: O(k)
+171|Excel Sheet Column Number|Easy|5/14/2019|Yes|Math|||TC: O(n) n=s.Length; SC: O(1)
