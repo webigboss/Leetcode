@@ -100,3 +100,5 @@
 165|Compare Version Numbers|Medium|5/14/2019|Yes|Spefific to problem|||
 168|Excel Sheet Column Title|Easy|5/14/2019|Yes|Math|||TC: O(k) k = n/26; SC: O(k)
 171|Excel Sheet Column Number|Easy|5/14/2019|Yes|Math|||TC: O(n) n=s.Length; SC: O(1)
+128|Longest Consecutive Sequence|Hard|5/15/2019|Yes for Sorting, Inspired for HT|HashTable / Sorting|||Sorting: TC: O(nlogn), SC: O(1); Hashtable: TC: O(n), SC: O(n)
+155|Min Stack|Easy|5/15/2019|Yes for List|List / One Stack|||
