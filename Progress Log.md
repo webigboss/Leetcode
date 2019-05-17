@@ -102,3 +102,6 @@
 171|Excel Sheet Column Number|Easy|5/14/2019|Yes|Math|||TC: O(n) n=s.Length; SC: O(1)
 128|Longest Consecutive Sequence|Hard|5/15/2019|Yes for Sorting, Inspired for HT|HashTable / Sorting|||Sorting: TC: O(nlogn), SC: O(1); Hashtable: TC: O(n), SC: O(n)
 155|Min Stack|Easy|5/15/2019|Yes for List|List / One Stack|||
+154|Find Minimum in Rotated Sorted Array II|Hard|5/16/2019|Yes|Binary Search|||TC: O(log(n)) (average), O(n) (worst); SC: O(1)
+217|Contains Duplicate|Easy|5/16/2019|Yes|Hashtable|||TC: O(n), SC: O(n); it can be solved by sorting too
+219|Contains Duplicate II|Easy|5/16/2019|Yes|Hashtable|||TC: O(n), SC: O(n)
