@@ -105,3 +105,5 @@
 154|Find Minimum in Rotated Sorted Array II|Hard|5/16/2019|Yes|Binary Search|||TC: O(log(n)) (average), O(n) (worst); SC: O(1)
 217|Contains Duplicate|Easy|5/16/2019|Yes|Hashtable|||TC: O(n), SC: O(n); it can be solved by sorting too
 219|Contains Duplicate II|Easy|5/16/2019|Yes|Hashtable|||TC: O(n), SC: O(n)
+228|Summary Ranges|Medium|2019/5/17|Yes|One Pass|||TC: O(n), SC: O(n)
+76|Minimum Window Substring|Hard|2019/5/18|Yes|Hashtable|||TC: O(n), SC: O(n)
