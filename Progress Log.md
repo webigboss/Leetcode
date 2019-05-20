@@ -107,3 +107,6 @@
 219|Contains Duplicate II|Easy|5/16/2019|Yes|Hashtable|||TC: O(n), SC: O(n)
 228|Summary Ranges|Medium|2019/5/17|Yes|One Pass|||TC: O(n), SC: O(n)
 76|Minimum Window Substring|Hard|2019/5/18|Yes|Hashtable|||TC: O(n), SC: O(n); Bravo! Check this post for template summarization of the substring problem. [here](https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems)
+139|Word Break|Medium|2019/5/18|No|DP|||TC: O(n^3), SC: O(n)
+134|Gas Station|Medium|2019/5/19|Yes for the one with O(n^2)|One Pass|||Brutal: TC: O(n^2), SC: O(1); OnePass: TC: O(n), SC: O(1)
+150|Evaluate Reverse Polish Notation|Medium|2019/5/19|Inspired only by idea(developed code independently)|Stack|||Left to Right: TC: O(n), SC: O(n). There is another Right to left solution which is less straight-forward. It failed at a test case which I didn't figure out the reason why. I added the code for it anyway
