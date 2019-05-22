@@ -112,3 +112,5 @@
 150|Evaluate Reverse Polish Notation|Medium|2019/5/19|Inspired only by idea(developed code independently)|Stack|||Left to Right: TC: O(n), SC: O(n). There is another Right to left solution which is less straight-forward. It failed at a test case which I didn't figure out the reason why. I added the code for it anyway
 115|Distinct Subsequences|Hard|2019/5/20|Inspired only by idea(developed code independently)|DP|||TC: O(n*m), SC: O(n*m). Bravo! Think of the parrtern independently!
 178|Rank Scores|Medium|2019/5/20|Yes|SQL|||
+191|Number of 1 Bits|Easy|2019/5/21|Yes|Bit Manipulation|||
+190|Reverse Bits|Easy|2019/5/21|Yes|Bit Manipulation|||there is a optimal solution that uses bitwise operation at [here](https://leetcode.com/problems/reverse-bits/discuss/54746/Java-Solution-and-Optimization)
