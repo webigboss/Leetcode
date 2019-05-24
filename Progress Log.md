@@ -116,4 +116,7 @@
 190|Reverse Bits|Easy|2019/5/21|Yes|Bit Manipulation|||there is a optimal solution that uses bitwise operation at [here](https://leetcode.com/problems/reverse-bits/discuss/54746/Java-Solution-and-Optimization)
 133|Clone Graph|Medium|2019/5/22|Yes|Recursion & Hashtable|||TC: O(n), SC: O(n); this is essentially the Depth first search for graph theory, the recursion is equivalent of a stack structure, however to archive deep copy, stack data structure seems to be less straight-forward than implementing by recusion
 151|Reverse Words in a String|Medium|2019/5/22|Yes|Stack|||TC: O(n), SC: O(n)
-127|Word Ladder|Medium|2019/5/22|Inspired only by idea(developed code independently)|Breadth First Search(Graph)|||TC: O(n*m*n) or O(n*m)? n: number of word, m: length of each word; SC: O(n*m)
+127|Word Ladder|Medium|2019/5/22|Inspired only by idea(developed code independently)|Breadth First Search(Graph)|||TC: O(n * m * n) or O(n * m) n: number of word, m: length of each word; SC: O(n * m)
+130|Surrounded Regions|Medium|2019/5/23|Inspired only by idea(developed code independently)|BFS(Queue) & DFS(Recursion)|||TC: O(n * m); SC: O(n * m)
+202|Happy Number|Easy|2019/5/23|Yes|Hashtable|||TC: O(n), SC: O(n)
+198|House Robber|Easy|2019/5/23|Yes|DP|||TC: O(n), SC: O(n)
