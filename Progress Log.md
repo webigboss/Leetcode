@@ -124,3 +124,7 @@
 257|Binary Tree Paths|Easy|2019/5/24|Yes|DFS(Binary Tree)|||TC: O(n), SC: O(n)
 207|Course Schedule|Medium|2019/5/25|Inspired only by idea(developed code independently)|Topological Sort: DFS(Recursion+Stack); Kahn's algorithm|||DFS: TC: O(n+m), SC: O(n+m); Kahn: TC: O(n+m), SC: O(max(n, m)). n: length of numCourse, m: length of prerequisites
 181|Employees Earning More Than Their Managers|Easy|2019/5/25|Yes|SQL|||
+210|Course Schedule II|Medium|2019/5/26|Yes|Topological Sort: DFS(Recursion+Stack); Kahn's algorithm|||DFS: TC: O(n+m), SC: O(n+m); Kahn: TC: O(n+m), SC: O(max(n, m)). n: length of numCourse, m: length of prerequisites
+176|Second Highest Salary|Easy|2019/5/26|Yes|SQL|||
+175|Combine Two Tables|Easy|2019/5/26|Yes|SQL|||
+177|Nth Highest Salary|Medium|2019/5/26|Yes|SQL|||
