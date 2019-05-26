@@ -122,4 +122,5 @@
 198|House Robber|Easy|2019/5/23|Yes|DP|||TC: O(n), SC: O(n)
 200|Number of Islands|Medium|2019/5/24|Yes|BFS(Queue) & DFS(Recursion)|||TC: O(n * m); SC: O(n * m)
 257|Binary Tree Paths|Easy|2019/5/24|Yes|DFS(Binary Tree)|||TC: O(n), SC: O(n)
-207|Course Schedule|Medium|2019/5/25|Inspired only by idea(developed code independently)|Topological Sort: DFS(Recursion+Stack)|||DFS: TC: O(n^2), SC: O(max(n, m)); n: length of numCourse, m: length of prerequisites
+207|Course Schedule|Medium|2019/5/25|Inspired only by idea(developed code independently)|Topological Sort: DFS(Recursion+Stack); Kahn's algorithm|||DFS: TC: O(n+m), SC: O(n+m); Kahn: TC: O(n+m), SC: O(max(n, m)). n: length of numCourse, m: length of prerequisites
+181|Employees Earning More Than Their Managers|Easy|2019/5/25|Yes|SQL|||
