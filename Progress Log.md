@@ -128,3 +128,8 @@
 176|Second Highest Salary|Easy|2019/5/26|Yes|SQL|||
 175|Combine Two Tables|Easy|2019/5/26|Yes|SQL|||
 177|Nth Highest Salary|Medium|2019/5/26|Yes|SQL|||
+196|Delete Duplicate Emails|Easy|2019/5/27|Yes|SQL|||
+126|Word Ladder II|Hard|2019/5/27|Yes|BFS+DFS(Backtracking)|||TC: O(n*m*n) or O(n*m)? n: number of word, m: length of each word; SC: O(n*m)
+172|Factorial Trailing Zeroes|Easy|2019/5/28|No|Math|||TC: O(log5(n)), SC:O(log5(n))
+279|Perfect Squares|Medium|2019/5/28|Yes|BFS|||TC: O(sqrt(n)), SC: O(sqrt(n)); there is also DP solutions
+187|Repeated DNA Sequences|Medium|2019/5/28|Yes|Hashtable|||TC: O(n), SC: O(n); can optimize this solution by bit manipulation
