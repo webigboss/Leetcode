@@ -133,3 +133,7 @@
 172|Factorial Trailing Zeroes|Easy|2019/5/28|No|Math|||TC: O(log5(n)), SC:O(log5(n))
 279|Perfect Squares|Medium|2019/5/28|Yes|BFS|||TC: O(sqrt(n)), SC: O(sqrt(n)); there is also DP solutions
 187|Repeated DNA Sequences|Medium|2019/5/28|Yes|Hashtable|||TC: O(n), SC: O(n); can optimize this solution by bit manipulation
+204|Count Primes|Medium|2019/5/29|No|Specific to problem|||TC: O(nloglog n), SC: O(n) https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes#cite_note-intro-8
+231|Power of Two|Easy|2019/5/29|Yes|Math|||TC: O(logn)?, SC: O(1). There are 4 different ways to solve Iterative&Recursive&Bit operation&Math 
+201|Bitwise AND of Numbers Range|Medium|2019/5/31|Yes|Bit Manipulation|||TC: O(Min(n.length, m.length)); SC: O(1)
+213|House Robber II|Medium|2019/5/31|Yes|DP|||TC: O(n), SC: O(n)
