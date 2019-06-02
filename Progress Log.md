@@ -137,3 +137,6 @@
 231|Power of Two|Easy|2019/5/29|Yes|Math|||TC: O(logn)?, SC: O(1). There are 4 different ways to solve Iterative&Recursive&Bit operation&Math 
 201|Bitwise AND of Numbers Range|Medium|2019/5/31|Yes|Bit Manipulation|||TC: O(Min(n.length, m.length)); SC: O(1)
 213|House Robber II|Medium|2019/5/31|Yes|DP|||TC: O(n), SC: O(n)
+205|Isomorphic Strings|Easy|2019/6/1|Yes|Hashtable|||TC: O(n), SC: O(1); Although we do use extra space, the space complexity is O(1)O(1) because the table's size stays constant no matter how large n is.
+215|Kth Largest Element in an Array|Medium|2019/6/1|Yes|Heapsort|||TC: O(nlogn), SC: O(1); there is also Merge sort solution which is divide and conquer
+242|Valid Anagram|Easy|2019/6/1|Yes|Hashtable|||TC: O(n), SC: O(1); Although we do use extra space, the space complexity is O(1)O(1) because the table's size stays constant no matter how large n is.
