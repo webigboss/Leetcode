@@ -29,7 +29,7 @@
 222|Count Complete Tree Nodes|Medium|4/5/2019|Yes|Recursion O(n) / Binary Search O(log(n)^2)|||need to check  the iterative binary search
 11|Container With Most Water|Medium|4/6/2019|No|Two Pointers alike (not based on sorting array actually, just have two pointers)|||
 12|Integer to Roman|Medium|4/6/2019|Yes|Specific to problem|||
-17|Letter Combinations of a Phone Number|Medium|4/7/2019|No|recursion|||
+17|Letter Combinations of a Phone Number|Medium|2019/4/7|No|DFS(BackTracking) / BFS||2019/6/3|revisited with BFS solution, and then optimized Hashtable by string array
 18|4Sum|Medium|4/7/2019|No|2sum and 3sum |||
 39|Combination Sum|Medium|4/8/2019|No|Backtracking|||
 31|Next Permutation|Medium|4/8/2019|Inspired only by idea(developed code independently)|Specific to problem|||No need to use Array.Sort, because it is really a reverse of all the elements is needed. Explore backtracking solution at [here](https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning))
@@ -140,3 +140,7 @@
 205|Isomorphic Strings|Easy|2019/6/1|Yes|Hashtable|||TC: O(n), SC: O(1); Although we do use extra space, the space complexity is O(1)O(1) because the table's size stays constant no matter how large n is.
 215|Kth Largest Element in an Array|Medium|2019/6/1|Yes|Heapsort|||TC: O(nlogn), SC: O(1); there is also Merge sort solution which is divide and conquer
 242|Valid Anagram|Easy|2019/6/1|Yes|Hashtable|||TC: O(n), SC: O(1); Although we do use extra space, the space complexity is O(1)O(1) because the table's size stays constant no matter how large n is.
+184|Department Highest Salary|Medium|2019/6/2|Yes|SQL|||
+183|Customers Who Never Order|Easy|2019/6/2|Yes|SQL|||
+179|Largest Number|Medium|2019/6/2|Yes|Heap Sort|||TC: O(nlogn), SC: O(1);
+164|Maximum Gap|Hard|2019/6/3|Yes|Radix Sort|||TC: O(d(n+k)) = O(n); SC: O(n+k) = O(n)
