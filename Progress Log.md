@@ -144,3 +144,8 @@
 183|Customers Who Never Order|Easy|2019/6/2|Yes|SQL|||
 179|Largest Number|Medium|2019/6/2|Yes|Heap Sort|||TC: O(nlogn), SC: O(1);
 164|Maximum Gap|Hard|2019/6/3|Yes|Radix Sort|||TC: O(d(n+k)) = O(n); SC: O(n+k) = O(n)
+180|Consecutive Numbers|Medium|2019/6/4|No|SQL|||
+221|Maximal Square|Medium|2019/6/4|No|DP|||TC: O(n*m), SC: O(n*m), there is a optimal solution to reduce SC to O(n)
+836|Rectangle Overlap|Easy|2019/6/4|Yes|Math|||TC: O(1), SC: O(1);
+185|Department Top Three Salaries|Hard|2019/6/5|Yes|SQL|||
+230|Kth Smallest Element in a BST|Medium|2019/6/5|Yes|Recursion / Iteration|||Recursion: TC: O(n), SC: O(n); Iteration: TC: O(H+k), SC: O(H+k). H: tree's height, k: for the kth element
