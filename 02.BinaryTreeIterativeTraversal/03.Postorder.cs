@@ -29,7 +29,7 @@ public class Solution{
 
             root = root.left;
         }
-        Array.Reverse(list);
+        list.Reverse();
         return list;      
     }
 }
