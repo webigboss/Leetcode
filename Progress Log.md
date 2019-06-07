@@ -149,3 +149,5 @@
 836|Rectangle Overlap|Easy|2019/6/4|Yes|Math|||TC: O(1), SC: O(1);
 185|Department Top Three Salaries|Hard|2019/6/5|Yes|SQL|||
 230|Kth Smallest Element in a BST|Medium|2019/6/5|Yes|Recursion / Iteration|||Recursion: TC: O(n), SC: O(n); Iteration: TC: O(H+k), SC: O(H+k). H: tree's height, k: for the kth element
+229|Majority Element II|Medium|2019/6/6|Yes (Hashtable)|Hashtable / Boyer-Moore Majority vote|||Hashtable: TC:O(n), SC: O(n), Boyer-Moore Majority Vode: TC: O(n), SC: O(1)
+235|Lowest Common Ancestor of a Binary Search Tree|Easy|2019/6/6|Yes|Iteration|||TC: O(n) (worst case, when BST is skewer, if the tree is balanced, then will be O(logn), SC: O(1); 
