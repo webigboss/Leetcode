@@ -151,3 +151,10 @@
 230|Kth Smallest Element in a BST|Medium|2019/6/5|Yes|Recursion / Iteration|||Recursion: TC: O(n), SC: O(n); Iteration: TC: O(H+k), SC: O(H+k). H: tree's height, k: for the kth element
 229|Majority Element II|Medium|2019/6/6|Yes (Hashtable)|Hashtable / Boyer-Moore Majority vote|||Hashtable: TC:O(n), SC: O(n), Boyer-Moore Majority Vode: TC: O(n), SC: O(1)
 235|Lowest Common Ancestor of a Binary Search Tree|Easy|2019/6/6|Yes|Iteration|||TC: O(n) (worst case, when BST is skewer, if the tree is balanced, then will be O(logn), SC: O(1); 
+220|Contains Duplicate III|Medium|2019/6/8|No|SortedSet / Bucket Dict|||SortedList: TC: O(nlogk), SC: O(k); Bucket dict:TC: O(n), SC: O(k)
+223|Rectangle Area|Medium|2019/6/8|No|Math|||TC: O(1), SC: O(1);
+232|Implement Queue using Stacks|Easy|2019/6/8|Yes|Design|||TC: O(n)(Push), O(1)(Pop), SC: O(n); the alternative implementation for Pop by Amotrized is brilliant
+241|Different Ways to Add Parentheses|Medium|2019/6/8|inspired only by idea(developed code independently)|Recursion (DFS alike)|||I tried to solve it by BFS but it doesn't quite fit for this problem because it will generate duplicates, but the code is still worth revisiting
+225|Implement Stack using Queues|Easy|2019/6/9|Yes|Specific to problem|||Two Queue: TC: O(n)(Push), O(1)(Pop); One Queue: TC: O(n)(Push), O(1)(Pop)
+238|Product of Array Except Self|Medium|2019/6/9|Inspired only by idea(developed code independently)|Specific to problem|||TC:O(n), SC: O(n); There is an optimal solution that with SC: O(1)
+239|Sliding Window Maximum|Hard|2019/6/9|No|Deque|||TC:O(n^2), SC: O(n); the two pass linear solution is also worth checking: [here](https://leetcode.com/problems/sliding-window-maximum/discuss/65881/O(n)-solution-in-Java-with-two-simple-pass-in-the-array)
