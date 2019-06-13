@@ -160,3 +160,8 @@
 239|Sliding Window Maximum|Hard|2019/6/9|No|Deque|||TC:O(n^2), SC: O(n); the two pass linear solution is also worth checking: [here](https://leetcode.com/problems/sliding-window-maximum/discuss/65881/O(n)-solution-in-Java-with-two-simple-pass-in-the-array)
 236|Lowest Common Ancestor of a Binary Tree|Medium|2019/6/10|Yes|DFS(Recursion)|||TC: O(n), SC: O(n); first time come up with a recursion with a return type, code is nice and tidy, bravo! there is iterative solution
 258|Add Digits|Easy|2019/6/10|Yes|Math|||TC: linear O(k), SC: O(1); there is a O(1) solution 
+263|Ugly Number|Easy|2019/6/11|Yes|Math|||
+264|Ugly Number II|Medium|2019/6/11|No|DP|||TC: O(n), SC: O(n)
+268|Missing Number|Easy|2019/6/12|Yes|Math|||TC: O(n), SC: O(1)
+91|Decode Ways|Medium|2019/6/12|Yes|DP|||TC: O(n), SC: O(n)
+41|First Missing Positive|Hard|2019/6/12|Yes for (SC: O(n))|Specific to problem|||Hashtable: TC: O(n), SC: O(n); Swap Numbers: TC:O(n), SC: O(1)
