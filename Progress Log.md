@@ -165,3 +165,8 @@
 268|Missing Number|Easy|2019/6/12|Yes|Math|||TC: O(n), SC: O(1)
 91|Decode Ways|Medium|2019/6/12|Yes|DP|||TC: O(n), SC: O(n)
 41|First Missing Positive|Hard|2019/6/12|Yes for (SC: O(n))|Specific to problem|||Hashtable: TC: O(n), SC: O(n); Swap Numbers: TC:O(n), SC: O(1)
+278|First Bad Version|Easy|2019/6/14|Yes|Binary Search|||TC: O(logn), SC: O(1)
+227|Basic Calculator II|Medium|2019/6/14|No|Stack|||TC: O(n), SC: O(1)
+283|Move Zeroes|Easy|2019/6/15|Yes|Specific to problem|||TC: O(n), SC: O(1)
+290|Word Pattern|Easy|2019/6/15|Yes|HashTable|||TC: O(n), SC: O(n)
+292|Nim Game|Easy|2019/6/16|Yes|Specific to problem|||TC: O(1), SC: O(1)
