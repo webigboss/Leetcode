@@ -170,3 +170,5 @@
 283|Move Zeroes|Easy|2019/6/15|Yes|Specific to problem|||TC: O(n), SC: O(1)
 290|Word Pattern|Easy|2019/6/15|Yes|HashTable|||TC: O(n), SC: O(n)
 292|Nim Game|Easy|2019/6/16|Yes|Specific to problem|||TC: O(1), SC: O(1)
+224|Basic Calculator|Hard|2019/6/17|No|Stack|||TC: O(n), SC: O(n)
+326|Power of Three|Easy|2019/6/17|Yes|Math|||TC: O(log(sqrt(n)))?, SC: O(1)
