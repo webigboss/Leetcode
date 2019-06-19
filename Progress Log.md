@@ -172,3 +172,6 @@
 292|Nim Game|Easy|2019/6/16|Yes|Specific to problem|||TC: O(1), SC: O(1)
 224|Basic Calculator|Hard|2019/6/17|No|Stack|||TC: O(n), SC: O(n)
 326|Power of Three|Easy|2019/6/17|Yes|Math|||TC: O(log(sqrt(n)))?, SC: O(1)
+146|LRU Cache|Medium|2019/6/18|Yes|Hashtable|||TC: Get: O(1), Put: O(n), SC: O(n); there is an solution use doubly linked list to archive O(1) for both get and put 
+274|H-Index|Medium|2019/6/18|Yes|Sorting / Counting Sort|||Sorting: TC: O(nlogn), SC: O(1); Counting Sort: TC: O(n), SC: O(n)
+275|H-Index II|Medium|2019/6/18|Yes|Logrithm pass|||TC: O(logn), SC: O(1)
