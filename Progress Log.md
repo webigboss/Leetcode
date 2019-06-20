@@ -175,3 +175,4 @@
 146|LRU Cache|Medium|2019/6/18|Yes|Hashtable|||TC: Get: O(1), Put: O(n), SC: O(n); there is an solution use doubly linked list to archive O(1) for both get and put 
 274|H-Index|Medium|2019/6/18|Yes|Sorting / Counting Sort|||Sorting: TC: O(nlogn), SC: O(1); Counting Sort: TC: O(n), SC: O(n)
 275|H-Index II|Medium|2019/6/18|Yes|Logrithm pass|||TC: O(logn), SC: O(1)
+287|Find the Duplicate Number|Medium|2019/6/19|No|Cycle detection/Sorting/Hashtable|||Cycle Detection: TC: O(n), SC: O(1);Sorting: TC: O(nlogn), SC: O(1); Hashtable: TC: O(n), SC: O(n) 
