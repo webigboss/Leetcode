@@ -176,3 +176,5 @@
 274|H-Index|Medium|2019/6/18|Yes|Sorting / Counting Sort|||Sorting: TC: O(nlogn), SC: O(1); Counting Sort: TC: O(n), SC: O(n)
 275|H-Index II|Medium|2019/6/18|Yes|Logrithm pass|||TC: O(logn), SC: O(1)
 287|Find the Duplicate Number|Medium|2019/6/19|No|Cycle detection/Sorting/Hashtable|||Cycle Detection: TC: O(n), SC: O(1);Sorting: TC: O(nlogn), SC: O(1); Hashtable: TC: O(n), SC: O(n) 
+299|Bulls and Cows|Medium|2019/6/20|Yes|Specific to problem|||one pass or two pass: TC: O(n), SC: O(n)
+289|Game of Life|Medium|2019/6/20|Yes|Specific to problem|||TC: O(n*m), SC: O(1)
