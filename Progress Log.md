@@ -178,3 +178,10 @@
 287|Find the Duplicate Number|Medium|2019/6/19|No|Cycle detection/Sorting/Hashtable|||Cycle Detection: TC: O(n), SC: O(1);Sorting: TC: O(nlogn), SC: O(1); Hashtable: TC: O(n), SC: O(n) 
 299|Bulls and Cows|Medium|2019/6/20|Yes|Specific to problem|||one pass or two pass: TC: O(n), SC: O(n)
 289|Game of Life|Medium|2019/6/20|Yes|Specific to problem|||TC: O(n*m), SC: O(1)
+300|Longest Increasing Subsequence|Medium|6/21/2019|No|Recursion with memorization / DP|||Recursion with memo: TC: O(n^2), SC: O(n^2)
+303|Range Sum Query - Immutable|Easy|6/21/2019|No for DP|DP|||TC: O(n), SC: O(n)
+304|Range Sum Query 2D - Immutable|Medium|6/22/2019|Yes (caching by row)|DP(caching by row / caching by area|||caching by row: TC: Query:O(m), pre-computation: O(n*m), SC: O(n*m); caching by area: TC: Query: O(1), pre-computation: O(n*m), SC: O(n*m)
+306|Additive Number|Medium|6/22/2019|Yes|Backtracking||| 
+307|Range Sum Query - Mutable|Medium|6/23/2019|Yes|DP|||DP: TC: query: O(1), update: O(n), pre-computation: O(n); SC: O(n). There are segment tree apporach which have logarithmic (logn) query time complexity.
+310|Minimum Height Trees|Medium|6/25/2019|No|Specific to problem|||TC: O(n), SC: O(n)
+309|Best Time to Buy and Sell Stock with Cooldown|Medium|6/25/2019|No|DP|||TC: O(n), SC: O(n), there is another way to design DP approach with 3 DP arrays, check [here](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/discuss/75928/Share-my-DP-solution-(By-State-Machine-Thinking))
