@@ -185,3 +185,5 @@
 307|Range Sum Query - Mutable|Medium|6/23/2019|Yes|DP|||DP: TC: query: O(1), update: O(n), pre-computation: O(n); SC: O(n). There are segment tree apporach which have logarithmic (logn) query time complexity.
 310|Minimum Height Trees|Medium|6/25/2019|No|Specific to problem|||TC: O(n), SC: O(n)
 309|Best Time to Buy and Sell Stock with Cooldown|Medium|6/25/2019|No|DP|||TC: O(n), SC: O(n), there is another way to design DP approach with 3 DP arrays, check [here](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/discuss/75928/Share-my-DP-solution-(By-State-Machine-Thinking))
+313|Super Ugly Number|Medium|6/26/2019|Yes|DP|||TC:O(n*m), SC: O(n+m); n: nth ugly number, m: number of primes
+319|Bulb Switcher|Medium|6/26/2019|No|Math|||TC: O(1), SC: O(1)
