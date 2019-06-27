@@ -188,3 +188,5 @@
 313|Super Ugly Number|Medium|6/26/2019|Yes|DP|||TC:O(n*m), SC: O(n+m); n: nth ugly number, m: number of primes
 319|Bulb Switcher|Medium|6/26/2019|No|Math|||TC: O(1), SC: O(1)
 318|Maximum Product of Word Lengths|Medium|6/26/2019|No|Bit Manipulation|||TC: O(n*m), SC: O(n)
+322|Coin Change|Medium|6/27/2019|Yes|DP (bottom up)|||TC: O(n*m), SC: O(m); n: number of coins, m: amount. Bravo for figuring out DP deduce.
+342|Power of Four|Easy|6/27/2019|Inspired only by idea(developed code independently)|Base Conversion|||Base Conversion: TC: O(log4(n)), SC: O(1);
