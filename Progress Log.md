@@ -190,3 +190,7 @@
 318|Maximum Product of Word Lengths|Medium|6/26/2019|No|Bit Manipulation|||TC: O(n*m), SC: O(n)
 322|Coin Change|Medium|6/27/2019|Yes|DP (bottom up)|||TC: O(n*m), SC: O(m); n: number of coins, m: amount. Bravo for figuring out DP deduce.
 342|Power of Four|Easy|6/27/2019|Inspired only by idea(developed code independently)|Base Conversion|||Base Conversion: TC: O(log4(n)), SC: O(1);
+328|Odd Even Linked List|Medium|6/27/2019|Yes|Specific to problem|||TC: O(n), SC: O(1)
+344|Reverse String|Easy|6/28/2019|Yes|Specific to problem|||TC: O(n), SC: O(1)
+312|Burst Balloons|Hard|6/28/2019|No|Divide and Conquer with Memo|||DC with memo: TC: O(n^2), SC: O(n^2)
+345|Reverse Vowels of a String|Easy|6/28/2019|Yes|Two Pointers|||TC: O(n), SC: O(n) (created a char array)
