@@ -138,7 +138,7 @@
 201|Bitwise AND of Numbers Range|Medium|2019/5/31|Yes|Bit Manipulation|||TC: O(Min(n.length, m.length)); SC: O(1)
 213|House Robber II|Medium|2019/5/31|Yes|DP|||TC: O(n), SC: O(n)
 205|Isomorphic Strings|Easy|2019/6/1|Yes|Hashtable|||TC: O(n), SC: O(1); Although we do use extra space, the space complexity is O(1)O(1) because the table's size stays constant no matter how large n is.
-215|Kth Largest Element in an Array|Medium|2019/6/1|Yes|Heapsort|||TC: O(nlogn), SC: O(1); there is also Merge sort solution which is divide and conquer
+215|Kth Largest Element in an Array|Medium|6/1/2019|Yes|Heapsort / Quickselect(20190630)||6/30/2019|Heapsort: TC: O(nlogn), SC: O(1); Quickselect: TC: O(n), SC: O(1)there is also Merge sort solution which is divide and conquer;
 242|Valid Anagram|Easy|2019/6/1|Yes|Hashtable|||TC: O(n), SC: O(1); Although we do use extra space, the space complexity is O(1)O(1) because the table's size stays constant no matter how large n is.
 184|Department Highest Salary|Medium|2019/6/2|Yes|SQL|||
 183|Customers Who Never Order|Easy|2019/6/2|Yes|SQL|||
@@ -194,4 +194,4 @@
 344|Reverse String|Easy|6/28/2019|Yes|Specific to problem|||TC: O(n), SC: O(1)
 312|Burst Balloons|Hard|6/28/2019|No|Divide and Conquer with Memo|||DC with memo: TC: O(n^2), SC: O(n^2)
 345|Reverse Vowels of a String|Easy|6/28/2019|Yes|Two Pointers|||TC: O(n), SC: O(n) (created a char array)
-324|Wiggle Sort II|Medium|6/28/2019|No|Sort|||TC: O(n) (assume FindKthLargest is O(n)), SC: O(n).  There is a in place optimal solution
+324|Wiggle Sort II|Medium|6/29/2019|No|Sort|||TC: O(n) (assume FindKthLargest is O(n)), SC: O(n).  There is a in place optimal solution
