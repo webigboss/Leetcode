@@ -138,7 +138,7 @@
 201|Bitwise AND of Numbers Range|Medium|2019/5/31|Yes|Bit Manipulation|||TC: O(Min(n.length, m.length)); SC: O(1)
 213|House Robber II|Medium|2019/5/31|Yes|DP|||TC: O(n), SC: O(n)
 205|Isomorphic Strings|Easy|2019/6/1|Yes|Hashtable|||TC: O(n), SC: O(1); Although we do use extra space, the space complexity is O(1)O(1) because the table's size stays constant no matter how large n is.
-215|Kth Largest Element in an Array|Medium|6/1/2019|Yes|Heapsort / Quickselect(20190630)||6/30/2019|Heapsort: TC: O(nlogn), SC: O(1); Quickselect: TC: O(n), SC: O(1), for quickselect approach, the partition scheme I used is Lomuto, there is another Hoare partition scheme which has improved worse case, but I also introduced a way to ramdomize the pivot, this will also improve the worse case of Lomuto partition.
+215|Kth Largest Element in an Array|Medium|2019/6/1|Yes|Heapsort / Quickselect(20190630)||2019/6/30: quickselect recursion; 2019/07/03: quickselect interation in place|Heapsort: TC: O(nlogn), SC: O(1); Quickselect recursion: TC: O(n), SC: O(log(n))?; Quickselect in place: TC:O(n), SC:O(1). for quickselect approach, the partition scheme I used is Lomuto, there is another Hoare partition scheme which has improved worse case, but I also introduced a way to ramdomize the pivot, this will also improve the worse case of Lomuto partition.
 242|Valid Anagram|Easy|2019/6/1|Yes|Hashtable|||TC: O(n), SC: O(1); Although we do use extra space, the space complexity is O(1)O(1) because the table's size stays constant no matter how large n is.
 184|Department Highest Salary|Medium|2019/6/2|Yes|SQL|||
 183|Customers Who Never Order|Easy|2019/6/2|Yes|SQL|||
@@ -198,3 +198,5 @@
 347|Top K Frequent Elements|Medium|6/30/2019||HashTable / Sort|||TC: O(nlog(n)), SC: O(n), there is not native PriorityQueue implementation in C#, so the solution only works for Java
 349|Intersection of Two Arrays|Easy|7/1/2019|Yes|Hashtable|||TC: O(n+m); SC: O(n+m)
 343|Integer Break|Medium|7/1/2019|No|DP / Math|||DP: O(n^2), SC: O(n); DP optimized by Math: TC: O(n), SC: O(n)
+350|Intersection of Two Arrays II|Easy|2019/7/2|Yes|Hashtable|||TC: O(n+m); SC: O(n+m)
+337|House Robber III|Medium|2019/7/2|Yes|Dfs + Memoizaiton|||TC: O(2n) = O(n)?; SC: ? For TC: think about every node will be only calculated twice, one robbing, one for skipping 
