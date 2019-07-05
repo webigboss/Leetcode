@@ -200,3 +200,5 @@
 343|Integer Break|Medium|7/1/2019|No|DP / Math|||DP: O(n^2), SC: O(n); DP optimized by Math: TC: O(n), SC: O(n)
 350|Intersection of Two Arrays II|Easy|2019/7/2|Yes|Hashtable|||TC: O(n+m); SC: O(n+m)
 337|House Robber III|Medium|2019/7/2|Yes|Dfs + Memoizaiton|||TC: O(2n) = O(n)?; SC: ? For TC: think about every node will be only calculated twice, one robbing, one for skipping 
+341|Flatten Nested List Iterator|Medium|2019/7/5|Yes|Stack|||TC: HasNext(): O(n), Next(): O(1), SC: O(n)
+338|Counting Bits|Medium|2019/7/5|Yes|Bit Manipulation + DP|||TC:O(n), SC: O(n)
