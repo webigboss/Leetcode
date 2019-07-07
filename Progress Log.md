@@ -202,3 +202,6 @@
 337|House Robber III|Medium|2019/7/2|Yes|Dfs + Memoizaiton|||TC: O(2n) = O(n)?; SC: ? For TC: think about every node will be only calculated twice, one robbing, one for skipping 
 341|Flatten Nested List Iterator|Medium|2019/7/5|Yes|Stack|||TC: HasNext(): O(n), Next(): O(1), SC: O(n)
 338|Counting Bits|Medium|2019/7/5|Yes|Bit Manipulation + DP|||TC:O(n), SC: O(n)
+357|Count Numbers with Unique Digits|Medium|7/5/2019|Yes|Backtracking / DP|||Backtracking: exponential; DP: TC:O(n), SC: O(n);
+367|Valid Perfect Square|Easy|7/5/2019|Yes|Binary Search|||TC: O(logn), SC: O(1)
+37|Sudoku Solver|Hard|7/6/2019|Yes|Backtracking|||TC: exponential, SC: O(1) since sudoku is constant 9*9.

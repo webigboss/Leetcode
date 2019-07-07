@@ -1,0 +1,11 @@
+C:\GitHub\Leetcode\01.AlgorithmPlayground\bin\Debug\netcoreapp2.2\AlgorithmPlayground.deps.json
+C:\GitHub\Leetcode\01.AlgorithmPlayground\bin\Debug\netcoreapp2.2\AlgorithmPlayground.runtimeconfig.json
+C:\GitHub\Leetcode\01.AlgorithmPlayground\bin\Debug\netcoreapp2.2\AlgorithmPlayground.runtimeconfig.dev.json
+C:\GitHub\Leetcode\01.AlgorithmPlayground\bin\Debug\netcoreapp2.2\AlgorithmPlayground.dll
+C:\GitHub\Leetcode\01.AlgorithmPlayground\bin\Debug\netcoreapp2.2\AlgorithmPlayground.pdb
+C:\GitHub\Leetcode\01.AlgorithmPlayground\obj\Debug\netcoreapp2.2\AlgorithmPlayground.csprojAssemblyReference.cache
+C:\GitHub\Leetcode\01.AlgorithmPlayground\obj\Debug\netcoreapp2.2\AlgorithmPlayground.csproj.CoreCompileInputs.cache
+C:\GitHub\Leetcode\01.AlgorithmPlayground\obj\Debug\netcoreapp2.2\AlgorithmPlayground.AssemblyInfoInputs.cache
+C:\GitHub\Leetcode\01.AlgorithmPlayground\obj\Debug\netcoreapp2.2\AlgorithmPlayground.AssemblyInfo.cs
+C:\GitHub\Leetcode\01.AlgorithmPlayground\obj\Debug\netcoreapp2.2\AlgorithmPlayground.dll
+C:\GitHub\Leetcode\01.AlgorithmPlayground\obj\Debug\netcoreapp2.2\AlgorithmPlayground.pdb

@@ -5,6 +5,10 @@ using System.Collections.Generic;
 namespace AlgorithmPlayground
 {
     public class HeapSortClass{
+        public HeapSortClass(){
+            var array = new []{4,2,1,6,8,9,5};
+            HeapSort(array);
+        }
         public void HeapSort(int[] array){
             int length = array.Length;
             //1. Heapify (restore the heap), iterate first half of the array and bubble down every element;
