@@ -205,3 +205,5 @@
 357|Count Numbers with Unique Digits|Medium|7/5/2019|Yes|Backtracking / DP|||Backtracking: exponential; DP: TC:O(n), SC: O(n);
 367|Valid Perfect Square|Easy|7/5/2019|Yes|Binary Search|||TC: O(logn), SC: O(1)
 37|Sudoku Solver|Hard|7/6/2019|Yes|Backtracking|||TC: exponential, SC: O(1) since sudoku is constant 9*9.
+331|Verify Preorder Serialization of a Binary Tree|Medium|7/7/2019|Yes|Stack|||TC:O(n), SC: O(n)
+334|Increasing Triplet Subsequence|Medium|7/7/2019|Yes|Two Pass|||TC:O(n), SC: O(1)
