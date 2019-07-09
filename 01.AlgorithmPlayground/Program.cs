@@ -7,8 +7,8 @@ namespace AlgorithmPlayground
     {
         static void Main(string[] args)
         {
-            var sodoku = new SudoKuSolver();
-            
+            //var sodoku = new SudoKuSolver();
+            var quickSort = new QuickSort();
             Console.ReadLine();
         }
     }
