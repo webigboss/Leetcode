@@ -8,7 +8,9 @@ namespace AlgorithmPlayground
         static void Main(string[] args)
         {
             //var sodoku = new SudoKuSolver();
-            var quickSort = new QuickSort();
+            //var quickSort = new QuickSort();
+            var wd = new WordDictionaryTest();
+            wd.TestIterative();
             Console.ReadLine();
         }
     }

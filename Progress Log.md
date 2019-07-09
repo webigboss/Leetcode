@@ -207,3 +207,5 @@
 37|Sudoku Solver|Hard|7/6/2019|Yes|Backtracking|||TC: exponential, SC: O(1) since sudoku is constant 9*9.
 331|Verify Preorder Serialization of a Binary Tree|Medium|7/7/2019|Yes|Stack|||TC:O(n), SC: O(n)
 334|Increasing Triplet Subsequence|Medium|7/7/2019|Yes|Two Pass|||TC:O(n), SC: O(1)
+208|Implement Trie (Prefix Tree)|Medium|7/8/2019|Inspired only by idea(developed code independently)|Trie|||TC: Insert, search, startwith: O(n), SC: O(m); n: count of characters of current word, m: count of total characters in the tree
+211|Add and Search Word - Data structure design|Medium|7/8/2019|Yes|Trie+Recursion/Trie+Iterative+BFS|||TC: Insert, O(n), search: O(m); SC: O(m); n: count of characters of current word, m: count of total characters in the tree
