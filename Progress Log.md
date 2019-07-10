@@ -209,3 +209,6 @@
 334|Increasing Triplet Subsequence|Medium|7/7/2019|Yes|Two Pass|||TC:O(n), SC: O(1)
 208|Implement Trie (Prefix Tree)|Medium|7/8/2019|Inspired only by idea(developed code independently)|Trie|||TC: Insert, search, startwith: O(n), SC: O(m); n: count of characters of current word, m: count of total characters in the tree
 211|Add and Search Word - Data structure design|Medium|7/8/2019|Yes|Trie+Recursion/Trie+Iterative+BFS|||TC: Insert, O(n), search: O(m); SC: O(m); n: count of characters of current word, m: count of total characters in the tree
+377|Combination Sum IV|Medium|7/9/2019|Inspired only by idea(developed code independently)|Recursion / DP|||Recursion: TC: exponential; SC: exponential; DP: TC: O(n*m); SC: O(n); n: target, m: length of nums;
+365|Water and Jug Problem|Medium|7/9/2019|No|Math|||TC: O(n), SC: O(1)
+
