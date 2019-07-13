@@ -211,4 +211,8 @@
 211|Add and Search Word - Data structure design|Medium|7/8/2019|Yes|Trie+Recursion/Trie+Iterative+BFS|||TC: Insert, O(n), search: O(m); SC: O(m); n: count of characters of current word, m: count of total characters in the tree
 377|Combination Sum IV|Medium|7/9/2019|Inspired only by idea(developed code independently)|Recursion / DP|||Recursion: TC: exponential; SC: exponential; DP: TC: O(n*m); SC: O(n); n: target, m: length of nums;
 365|Water and Jug Problem|Medium|7/9/2019|No|Math|||TC: O(n), SC: O(1)
+371|Sum of Two Integers|Easy|2019/7/10|Yes|Bit Manipulation|||TC: O(1), SC: O(1)
+383|Ransom Note|Easy|2019/7/10|Yes|Hashtable|||TC:O(n), SC: O(n)
+25|Reverse Nodes in k-Group|Hard|2019/7/11|Yes|Inplace reverse LinkedList|||TC: O(n), SC: O(1)
+332|Reconstruct Itinerary|Medium|07/12/2019|Yes|DFS(Recursion)|||TC: exponential, SC: O(n), in problem is essentially a directed graph with more than 1 verticies at same direction, PriorityQueue can sort and track remaining vertices in one short, however c# doesn't have it, so I used dictionary of sortedset to sort verices,  and dictinary of int to count remaining vertices while during the DFS. alternitavely I can use sortedList to archive the same as PriorityQueue but with worse time complexity.  
 
