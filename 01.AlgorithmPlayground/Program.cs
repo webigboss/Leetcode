@@ -9,8 +9,7 @@ namespace AlgorithmPlayground
         {
             //var sodoku = new SudoKuSolver();
             //var quickSort = new QuickSort();
-            var wd = new WordDictionaryTest();
-            wd.TestIterative();
+            var superpow = new SuperPowClass();
             Console.ReadLine();
         }
     }
