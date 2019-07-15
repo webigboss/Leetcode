@@ -217,4 +217,4 @@
 332|Reconstruct Itinerary|Medium|07/12/2019|Yes|DFS(Recursion)|||TC: exponential, SC: O(n), in problem is essentially a directed graph with more than 1 verticies at same direction, PriorityQueue can sort and track remaining vertices in one short, however c# doesn't have it, so I used dictionary of sortedset to sort verices,  and dictinary of int to count remaining vertices while during the DFS. alternitavely I can use sortedList to archive the same as PriorityQueue but with worse time complexity.  
 372|SuperPow|Medium|7/12/2019|No|Math+Recursion|||TC:O(n), SC: O(n); n: b's length
 373|Find K Pairs with Smallest Sums|Medium|7/13/2019|No|PriorityQueue(Heap)|||TC: O(n^2), SC: O(n); n:nums2's length; sortedList by default doesn't allow duplicated key. need to know how to use Icomparer to define comparer that allow duplicate key
-
+387|First Unique Character in a String|Easy|2019/7/14|Yes|Hashtable|||TC: O(n), SC: O(n)
