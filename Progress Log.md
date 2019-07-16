@@ -218,3 +218,4 @@
 372|SuperPow|Medium|7/12/2019|No|Math+Recursion|||TC:O(n), SC: O(n); n: b's length
 373|Find K Pairs with Smallest Sums|Medium|7/13/2019|No|PriorityQueue(Heap)|||TC: O(n^2), SC: O(n); n:nums2's length; sortedList by default doesn't allow duplicated key. need to know how to use Icomparer to define comparer that allow duplicate key
 387|First Unique Character in a String|Easy|2019/7/14|Yes|Hashtable|||TC: O(n), SC: O(n)
+368|Largest Divisible Subset|Medium|2019/7/15|No|DP|||TC: O(n^2), SC: O(n)
