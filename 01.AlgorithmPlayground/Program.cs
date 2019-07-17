@@ -10,7 +10,8 @@ namespace AlgorithmPlayground
             //var sodoku = new SudoKuSolver();
             //var quickSort = new QuickSort();
             //var superpow = new SuperPowClass();
-            var ksmall = new KSmallestPairsClass();
+            //var ksmall = new KSmallestPairsClass();
+            var wiggle = new WiggleSubsequenceClass();
             Console.ReadLine();
         }
     }
