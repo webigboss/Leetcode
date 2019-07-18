@@ -222,3 +222,4 @@
 375|Guess Number Higher or Lower II|Medium|07/16/2019|No|DP(Top Down)/DP(Bottom Up)|||DP(TopDown): TC: O(n^2), SC: O(n^2); DP(Bottom up): TC: O(n^3)?, SC: O(n^2)
 376|Wiggle Subsequence|Medium|07/17/2019|Yes|DP|||TC: O(n), SC: O(n); check the solution section, it has better DP thoughts and greedy solution
 378|Kth Smallest Element in a Sorted Matrix|Medium|2019/7/17|Yes|PriorityQueue(Heap)|||TC: O(n^2), SC: O(n); used SortedList to implement PriorityQueue as C# doesn't have native prorityqueue class, native PQ will have TC: O(nlogn), SC: O(n) 
+389|Find the Difference|Easy|2019/7/18|Yes(hashtable)|Hashtable / Bit Manipulation|||Hashtable: TC: O(n), SC: O(n); BitManipulation: TC:O(n), SC: O(1)
