@@ -11,7 +11,8 @@ namespace AlgorithmPlayground
             //var quickSort = new QuickSort();
             //var superpow = new SuperPowClass();
             //var ksmall = new KSmallestPairsClass();
-            var wiggle = new WiggleSubsequenceClass();
+            //var wiggle = new WiggleSubsequenceClass();
+            var rndSetTest = new RandomSetTest();
             Console.ReadLine();
         }
     }
