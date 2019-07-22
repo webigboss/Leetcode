@@ -12,3 +12,7 @@
 *.cache
 *.pdb
 *.dll
+*.dll
+*.pdb
+*.cache
+01.AlgorithmPlayground/obj/project.assets.json

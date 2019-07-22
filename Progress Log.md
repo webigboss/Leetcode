@@ -226,3 +226,5 @@
 390|Elimination Game|Medium|07/18/2019|No|Specific to Problem|||TC: O(n), SC: O(1)|1. have an int and keep updating it as the length of remaining numbers; 2. analysis case from left or from right, from left will always start from the first num, which will visit the first num, while from right, whether the left first num will be visited depends on odd/even of remaining element
 380|Insert Delete GetRandom O(1)|Medium|07/19/2019|inspired only by idea(developed code independently)|Hashtable+ List Swap|||TC: O(1), SC: O(n)|1. using a list to calculcate the random fron Random(), but it’s length is determined by the dictionray, meaning any element exceeds the count of dict will not be considered as an element of this list, removing item by swaping item to list end;
 374|Guess Number Higher or Lower|Easy|7/21/2019|Yes|Binary Search|||TC:O(logn), SC: O(1)|
+382|Linked List Random Node|Medium|7/21/2019|Yes(hashtable)|Hashtable/Reservoir sampling|||Hashtable: TC: O(n), SC: O(n); Reservoir sampling: TC:O(n), SC:O(1)|
+384|Shuffle an Array|Medium|7/21/2019|No|Fisher-Yates|||Shuffle:TC:O(n), SC:O(1)|
