@@ -228,3 +228,4 @@
 374|Guess Number Higher or Lower|Easy|7/21/2019|Yes|Binary Search|||TC:O(logn), SC: O(1)|
 382|Linked List Random Node|Medium|7/21/2019|Yes(hashtable)|Hashtable/Reservoir sampling|||Hashtable: TC: O(n), SC: O(n); Reservoir sampling: TC:O(n), SC:O(1)|
 384|Shuffle an Array|Medium|7/21/2019|No|Fisher-Yates|||Shuffle:TC:O(n), SC:O(1)|
+400|Nth Digit|Easy|7/22/2019|inspired only by idea(developed code independently)|Math|||TC: O(n), SC:O(1); n: length of number n|1.find the length of the number where the nth digit is from; 2.find the actual number where the nth digit is from; 3 .find the nth digit and return

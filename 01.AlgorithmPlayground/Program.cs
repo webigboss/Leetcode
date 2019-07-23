@@ -20,8 +20,8 @@ namespace AlgorithmPlayground
             // head.next.next.next.next = new ListNode(100);
             // var linkedListRandomNode = new LinkedListRandomNode(head);
             // var result = linkedListRandomNode.GetRandom();
-            var shuffleTest = new SuffleArrayTest();
-
+            //var shuffleTest = new SuffleArrayTest();
+            var nthDigits = new NthDigit();
             Console.ReadLine();
         }
     }
