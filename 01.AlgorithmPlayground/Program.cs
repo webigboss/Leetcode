@@ -21,7 +21,8 @@ namespace AlgorithmPlayground
             // var linkedListRandomNode = new LinkedListRandomNode(head);
             // var result = linkedListRandomNode.GetRandom();
             //var shuffleTest = new SuffleArrayTest();
-            var nthDigits = new NthDigit();
+            //var nthDigits = new NthDigit();
+            var findSubstring = new FindSubStringClass();
             Console.ReadLine();
         }
     }
