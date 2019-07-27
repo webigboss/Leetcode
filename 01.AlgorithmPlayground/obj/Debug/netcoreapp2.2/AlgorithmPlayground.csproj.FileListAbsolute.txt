@@ -20,3 +20,14 @@ C:\Users\cli\Documents\GitHub\Leetcode\01.AlgorithmPlayground\obj\Debug\netcorea
 C:\Users\cli\Documents\GitHub\Leetcode\01.AlgorithmPlayground\obj\Debug\netcoreapp2.2\AlgorithmPlayground.AssemblyInfo.cs
 C:\Users\cli\Documents\GitHub\Leetcode\01.AlgorithmPlayground\obj\Debug\netcoreapp2.2\AlgorithmPlayground.dll
 C:\Users\cli\Documents\GitHub\Leetcode\01.AlgorithmPlayground\obj\Debug\netcoreapp2.2\AlgorithmPlayground.pdb
+C:\Users\Chandler\Documents\GitHub\Leetcode\01.AlgorithmPlayground\bin\Debug\netcoreapp2.2\AlgorithmPlayground.deps.json
+C:\Users\Chandler\Documents\GitHub\Leetcode\01.AlgorithmPlayground\bin\Debug\netcoreapp2.2\AlgorithmPlayground.runtimeconfig.json
+C:\Users\Chandler\Documents\GitHub\Leetcode\01.AlgorithmPlayground\bin\Debug\netcoreapp2.2\AlgorithmPlayground.runtimeconfig.dev.json
+C:\Users\Chandler\Documents\GitHub\Leetcode\01.AlgorithmPlayground\bin\Debug\netcoreapp2.2\AlgorithmPlayground.dll
+C:\Users\Chandler\Documents\GitHub\Leetcode\01.AlgorithmPlayground\bin\Debug\netcoreapp2.2\AlgorithmPlayground.pdb
+C:\Users\Chandler\Documents\GitHub\Leetcode\01.AlgorithmPlayground\obj\Debug\netcoreapp2.2\AlgorithmPlayground.csprojAssemblyReference.cache
+C:\Users\Chandler\Documents\GitHub\Leetcode\01.AlgorithmPlayground\obj\Debug\netcoreapp2.2\AlgorithmPlayground.csproj.CoreCompileInputs.cache
+C:\Users\Chandler\Documents\GitHub\Leetcode\01.AlgorithmPlayground\obj\Debug\netcoreapp2.2\AlgorithmPlayground.AssemblyInfoInputs.cache
+C:\Users\Chandler\Documents\GitHub\Leetcode\01.AlgorithmPlayground\obj\Debug\netcoreapp2.2\AlgorithmPlayground.AssemblyInfo.cs
+C:\Users\Chandler\Documents\GitHub\Leetcode\01.AlgorithmPlayground\obj\Debug\netcoreapp2.2\AlgorithmPlayground.dll
+C:\Users\Chandler\Documents\GitHub\Leetcode\01.AlgorithmPlayground\obj\Debug\netcoreapp2.2\AlgorithmPlayground.pdb
