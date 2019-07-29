@@ -23,7 +23,8 @@ namespace AlgorithmPlayground
             //var shuffleTest = new SuffleArrayTest();
             //var nthDigits = new NthDigit();
             // var findSubstring = new FindSubStringClass();
-            var wildcardmatching = new WildcardMatching();
+            // var wildcardmatching = new WildcardMatching();
+            var trapRainWater = new TrappingRainWater();
             Console.ReadLine();
         }
     }
