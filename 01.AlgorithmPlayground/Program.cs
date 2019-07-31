@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace AlgorithmPlayground
 {
@@ -24,7 +25,8 @@ namespace AlgorithmPlayground
             //var nthDigits = new NthDigit();
             // var findSubstring = new FindSubStringClass();
             // var wildcardmatching = new WildcardMatching();
-            var trapRainWater = new TrappingRainWater();
+            //var trapRainWater = new TrappingRainWater();
+            var s = string.Format("{0}:{1:D2}", 1, 2);
             Console.ReadLine();
         }
     }
