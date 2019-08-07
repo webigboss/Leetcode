@@ -73,7 +73,7 @@
 62|Unique Paths|Medium|4/30/2019|No|Math & DP|||Math: O(n), SC O(1), DP: O(n^2), SC: O(n^2), DP solution can optimize the space complexity.
 36|Valid Sudoku|Medium|5/1/2019|Yes|Hashtable|||
 82|Remove Duplicates from Sorted List II|Medium|5/1/2019|Yes|3 Pointers|||TC: O(n), SC: O(1), one pass algorithm
-206|Reverse Linked List|Easy|5/2/2019|Yes|Iteration & Recursion|||Iteration: TC: O(n), SC: O(1); Recursion: TC: O(n), SC: O(n)
+206|Reverse Linked List|Easy|2019/5/2|Yes|Iteration & Recursion||2019/8/6|Iteration: TC: O(n), SC: O(1); Recursion: TC: O(n), SC: O(n)|Iterative: define a prev node, a temp node, iterate thorugh the linkedlist, on each iteration 1. save cur.next to temp, 2. change cur.next to prev node, 3. set prev = cur, 4. set cur = temp, 5, return pre when iteration is done; Recursive: 1. return the tail as the new head all the way up; 2. key operation is cur.next.next = cur, cur.next is the next node before reverse, assign its next to cur will reverse the direction; 3. set cur.next = null to avoid cycle in the list; 
 92|Reverse Linked List II|Medium|5/2/2019|Yes|Iteration|||Iteration: TC: O(n), SC: O(1)
 109|Convert Sorted List to Binary Search Tree|Medium|5/3/2019|Yes|Recursion|||TC: O(n), SC: O(n), same as official solution 2
 138|Copy List with Random Pointer|Medium|5/3/2019|Yes|Hashtable|||TC: O(n), SC  O(n). There is a optimized solution which will archive SC O(1)
