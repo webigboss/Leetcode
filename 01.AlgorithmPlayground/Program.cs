@@ -27,7 +27,8 @@ namespace AlgorithmPlayground
             // var wildcardmatching = new WildcardMatching();
             //var trapRainWater = new TrappingRainWater();
             // var s = string.Format("{0}:{1:D2}", 1, 2);
-            var summaryRangeTest = new SummaryRangesTest();
+            //var summaryRangeTest = new SummaryRangesTest();
+            var rotateFunction = new RotateFunction();
             Console.ReadLine();
         }
     }
