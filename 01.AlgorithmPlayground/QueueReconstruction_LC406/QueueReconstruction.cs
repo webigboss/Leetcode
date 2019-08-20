@@ -47,7 +47,6 @@ namespace AlgorithmPlayground
                 }
                 result[index - 1] = people[i];
             }
-
             return result;
         }
 
