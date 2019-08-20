@@ -29,7 +29,8 @@ namespace AlgorithmPlayground
             // var s = string.Format("{0}:{1:D2}", 1, 2);
             //var summaryRangeTest = new SummaryRangesTest();
             //var rotateFunction = new RotateFunction();
-            var intergerReplacement = new IntegerReplacementClass();
+            // var intergerReplacement = new IntegerReplacementClass();
+            var reconstructQueue = new QueueReconstruction();
             Console.ReadLine();
         }
     }
