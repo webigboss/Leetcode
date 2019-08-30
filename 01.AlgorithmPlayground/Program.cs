@@ -30,7 +30,8 @@ namespace AlgorithmPlayground
             //var summaryRangeTest = new SummaryRangesTest();
             //var rotateFunction = new RotateFunction();
             // var intergerReplacement = new IntegerReplacementClass();
-            var reconstructQueue = new QueueReconstruction();
+            //var reconstructQueue = new QueueReconstruction();
+            var longestRepeatingCharReplace = new LongestRepeatingCharacterReplacement();
             Console.ReadLine();
         }
     }
