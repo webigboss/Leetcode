@@ -32,7 +32,8 @@ namespace AlgorithmPlayground
             // var intergerReplacement = new IntegerReplacementClass();
             //var reconstructQueue = new QueueReconstruction();
             // var longestRepeatingCharReplace = new LongestRepeatingCharacterReplacement();
-            var constructQuadTree = new ConstructQuadTree();
+            // var constructQuadTree = new ConstructQuadTree();
+            var numberofSegment = new NumberofSegmentsInAString();
             Console.ReadLine();
         }
     }
