@@ -33,7 +33,8 @@ namespace AlgorithmPlayground
             //var reconstructQueue = new QueueReconstruction();
             // var longestRepeatingCharReplace = new LongestRepeatingCharacterReplacement();
             // var constructQuadTree = new ConstructQuadTree();
-            var numberofSegment = new NumberofSegmentsInAString();
+            //var numberofSegment = new NumberofSegmentsInAString();
+            var pathSumIII = new PathSumIII();
             Console.ReadLine();
         }
     }
