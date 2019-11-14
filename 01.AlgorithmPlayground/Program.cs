@@ -34,7 +34,8 @@ namespace AlgorithmPlayground
             // var longestRepeatingCharReplace = new LongestRepeatingCharacterReplacement();
             // var constructQuadTree = new ConstructQuadTree();
             //var numberofSegment = new NumberofSegmentsInAString();
-            var pathSumIII = new PathSumIII();
+            //var pathSumIII = new PathSumIII();
+            var permutationInString = new PermutationinString();
             Console.ReadLine();
         }
     }
