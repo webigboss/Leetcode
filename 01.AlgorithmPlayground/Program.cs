@@ -35,7 +35,8 @@ namespace AlgorithmPlayground
             // var constructQuadTree = new ConstructQuadTree();
             //var numberofSegment = new NumberofSegmentsInAString();
             //var pathSumIII = new PathSumIII();
-            var permutationInString = new PermutationinString();
+            //var permutationInString = new PermutationinString();
+            var numberofBoomerangs = new NumberOfBoomerangsClass();
             Console.ReadLine();
         }
     }
