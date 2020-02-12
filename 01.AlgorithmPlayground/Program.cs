@@ -38,7 +38,8 @@ namespace AlgorithmPlayground
             //var permutationInString = new PermutationinString();
             // var numberofBoomerangs = new NumberOfBoomerangsClass();
             // var serializeDeserializeBST = new SerializeandDeserializeBST();
-            var count = new FourSumII();
+            // var count = new FourSumII();
+            var pattern132 = new Pattern132();
             Console.ReadLine();
         }
     }
