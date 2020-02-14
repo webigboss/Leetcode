@@ -1,5 +1,3 @@
-
-
 namespace AlgorithmPlayground
 {
     public class CircularArrayLoop

@@ -40,7 +40,8 @@ namespace AlgorithmPlayground
             // var serializeDeserializeBST = new SerializeandDeserializeBST();
             // var count = new FourSumII();
             // var pattern132 = new Pattern132();
-            var circularArrayLoop = new CircularArrayLoop();
+            //var circularArrayLoop = new CircularArrayLoop();
+            var repeatedSubstringPattern = new RepeatedSubstringPatternClass();
             Console.ReadLine();
         }
     }
