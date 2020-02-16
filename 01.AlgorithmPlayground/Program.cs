@@ -41,7 +41,8 @@ namespace AlgorithmPlayground
             // var count = new FourSumII();
             // var pattern132 = new Pattern132();
             //var circularArrayLoop = new CircularArrayLoop();
-            var repeatedSubstringPattern = new RepeatedSubstringPatternClass();
+            // var repeatedSubstringPattern = new RepeatedSubstringPatternClass();
+            var minMoves2 = new MinMovesII();
             Console.ReadLine();
         }
     }
