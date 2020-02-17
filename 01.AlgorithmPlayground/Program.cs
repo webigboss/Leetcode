@@ -42,7 +42,8 @@ namespace AlgorithmPlayground
             // var pattern132 = new Pattern132();
             //var circularArrayLoop = new CircularArrayLoop();
             // var repeatedSubstringPattern = new RepeatedSubstringPatternClass();
-            var minMoves2 = new MinMovesII();
+            // var minMoves2 = new MinMovesII();
+            var canIWin = new CanIwinClass();
             Console.ReadLine();
         }
     }
