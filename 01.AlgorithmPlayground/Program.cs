@@ -43,7 +43,8 @@ namespace AlgorithmPlayground
             //var circularArrayLoop = new CircularArrayLoop();
             // var repeatedSubstringPattern = new RepeatedSubstringPatternClass();
             // var minMoves2 = new MinMovesII();
-            var canIWin = new CanIwinClass();
+            // var canIWin = new CanIwinClass();
+            var substringinWraparoundString = new UniqueSubstringinWraparoundString();
             Console.ReadLine();
         }
     }
