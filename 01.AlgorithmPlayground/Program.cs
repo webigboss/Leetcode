@@ -44,7 +44,8 @@ namespace AlgorithmPlayground
             // var repeatedSubstringPattern = new RepeatedSubstringPatternClass();
             // var minMoves2 = new MinMovesII();
             // var canIWin = new CanIwinClass();
-            var substringinWraparoundString = new UniqueSubstringinWraparoundString();
+            // var substringinWraparoundString = new UniqueSubstringinWraparoundString();
+            var countNegatives = new CountNegatives();
             Console.ReadLine();
         }
     }
