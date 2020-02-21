@@ -107,8 +107,8 @@
 219|Contains Duplicate II|Easy|5/16/2019|Yes|Hashtable|||TC: O(n), SC: O(n)
 228|Summary Ranges|Medium|2019/5/17|Yes|One Pass|||TC: O(n), SC: O(n)
 76|Minimum Window Substring|Hard|2019/5/18|Yes|Hashtable|||TC: O(n), SC: O(n); Bravo! Check this post for template summarization of the substring problem. [here](https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems)
-139|Word Break|Medium|2019/5/18|No|DP|||TC: O(n^3), SC: O(n)
-134|Gas Station|Medium|2019/5/19|Yes for the one with O(n^2)|One Pass|||Brutal: TC: O(n^2), SC: O(1); OnePass: TC: O(n), SC: O(1)
+139|Word Break|Medium|2019/5/18|No|DP||2020-02-21|TC: O(n^3), SC: O(n); Revisit2020-02-20 DP: TC: O(n^2), SC: O(n)|2020-02-20: optimized DP in the revisit solution, basically changed iteration direction of the sub interation, so as to reduce repetitive checking, also use stringbuilder to get the substring instead of use substring(), reduced the time complexity from O(n^3) to O(n^2)
+134|Gas Station|Medium|2019/5/19|Yes for the one with O(n^2)|One Pass|||Brutal: TC: O(n^2), SC: O(1); OnePass: TC: O(n), SC: O(1)|
 150|Evaluate Reverse Polish Notation|Medium|2019/5/19|Inspired only by idea(developed code independently)|Stack|||Left to Right: TC: O(n), SC: O(n). There is another Right to left solution which is less straight-forward. It failed at a test case which I didn't figure out the reason why. I added the code for it anyway
 115|Distinct Subsequences|Hard|2019/5/20|Inspired only by idea(developed code independently)|DP|||TC: O(n*m), SC: O(n*m). Bravo! Think of the parrtern independently!
 178|Rank Scores|Medium|2019/5/20|Yes|SQL|||
@@ -207,7 +207,7 @@
 37|Sudoku Solver|Hard|7/6/2019|Yes|Backtracking|||TC: exponential, SC: O(1) since sudoku is constant 9*9.
 331|Verify Preorder Serialization of a Binary Tree|Medium|7/7/2019|Yes|Stack|||TC:O(n), SC: O(n)
 334|Increasing Triplet Subsequence|Medium|7/7/2019|Yes|Two Pass|||TC:O(n), SC: O(1)
-208|Implement Trie (Prefix Tree)|Medium|7/8/2019|Inspired only by idea(developed code independently)|Trie|||TC: Insert, search, startwith: O(n), SC: O(m); n: count of characters of current word, m: count of total characters in the tree
+208|Implement Trie (Prefix Tree)|Medium|7/8/2019|Inspired only by idea(developed code independently)|Trie||2020-02-20|TC: Insert, search, startwith: O(n), SC: O(m); n: count of characters of current word, m: count of total characters in the tree
 211|Add and Search Word - Data structure design|Medium|7/8/2019|Yes|Trie+Recursion/Trie+Iterative+BFS|||TC: Insert, O(n), search: O(m); SC: O(m); n: count of characters of current word, m: count of total characters in the tree
 377|Combination Sum IV|Medium|7/9/2019|Inspired only by idea(developed code independently)|Recursion / DP|||Recursion: TC: exponential; SC: exponential; DP: TC: O(n*m); SC: O(n); n: target, m: length of nums;
 365|Water and Jug Problem|Medium|7/9/2019|No|Math|||TC: O(n), SC: O(1)
