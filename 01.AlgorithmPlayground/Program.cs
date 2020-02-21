@@ -45,7 +45,8 @@ namespace AlgorithmPlayground
             // var minMoves2 = new MinMovesII();
             // var canIWin = new CanIwinClass();
             // var substringinWraparoundString = new UniqueSubstringinWraparoundString();
-            var countNegatives = new CountNegatives();
+            // var countNegatives = new CountNegatives();
+            var concatenatedWords = new ConcatenatedWords();
             Console.ReadLine();
         }
     }
