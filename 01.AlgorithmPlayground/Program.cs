@@ -47,7 +47,8 @@ namespace AlgorithmPlayground
             // var substringinWraparoundString = new UniqueSubstringinWraparoundString();
             // var countNegatives = new CountNegatives();
             // var concatenatedWords = new ConcatenatedWords();
-            var wordbreak2 = new WordBreakII();
+            // var wordbreak2 = new WordBreakII();
+            var matchsticksToSquare = new MatchsticksToSquare();
             Console.ReadLine();
         }
     }
