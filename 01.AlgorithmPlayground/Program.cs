@@ -48,7 +48,8 @@ namespace AlgorithmPlayground
             // var countNegatives = new CountNegatives();
             // var concatenatedWords = new ConcatenatedWords();
             // var wordbreak2 = new WordBreakII();
-            var matchsticksToSquare = new MatchsticksToSquare();
+            // var matchsticksToSquare = new MatchsticksToSquare();
+            var smallestGoodBase = new SmallestGoodBaseClass();
             Console.ReadLine();
         }
     }
