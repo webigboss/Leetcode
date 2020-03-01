@@ -49,7 +49,8 @@ namespace AlgorithmPlayground
             // var concatenatedWords = new ConcatenatedWords();
             // var wordbreak2 = new WordBreakII();
             // var matchsticksToSquare = new MatchsticksToSquare();
-            var smallestGoodBase = new SmallestGoodBaseClass();
+            // var smallestGoodBase = new SmallestGoodBaseClass();
+            var increasingSubsequences = new IncreasingSubsequences();
             Console.ReadLine();
         }
     }
