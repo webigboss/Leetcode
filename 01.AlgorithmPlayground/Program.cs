@@ -50,7 +50,8 @@ namespace AlgorithmPlayground
             // var wordbreak2 = new WordBreakII();
             // var matchsticksToSquare = new MatchsticksToSquare();
             // var smallestGoodBase = new SmallestGoodBaseClass();
-            var increasingSubsequences = new IncreasingSubsequences();
+            // var increasingSubsequences = new IncreasingSubsequences();
+            var zumaGame = new ZumaGame();
             Console.ReadLine();
         }
     }
