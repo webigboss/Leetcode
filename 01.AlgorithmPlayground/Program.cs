@@ -51,7 +51,7 @@ namespace AlgorithmPlayground
             // var matchsticksToSquare = new MatchsticksToSquare();
             // var smallestGoodBase = new SmallestGoodBaseClass();
             // var increasingSubsequences = new IncreasingSubsequences();
-            var zumaGame = new ZumaGame();
+            // var zumaGame = new ZumaGame();            
             Console.ReadLine();
         }
     }
