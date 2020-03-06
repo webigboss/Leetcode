@@ -1,19 +1,4 @@
-using System;
-using System.Text;
-
-namespace AlgorithmPlayground
-{
-    public class ZumaGame
-    {
-        public ZumaGame(){
-            var board = "RRWWRRBBRR";
-            var hand = "WB"; 
-            var result = FindMinStep(board, hand);
-            // var board = "YWWRRWY";
-            // var c = 'W';
-            // var index = 7;
-            // var result = Insert(board, c, index);
-        }
+public class Solution {
         public int _minInsert;
         public int FindMinStep(string board, string hand)
         {
@@ -81,5 +66,4 @@ namespace AlgorithmPlayground
             }
             return newBoard;
         }
-    }
 }
