@@ -56,7 +56,8 @@ namespace AlgorithmPlayground
             // var topNBuzzWordsVar1 = new TopNBuzzWordsVar1();
             // var treasureIsland = new TreasureIsland();
             // var treasureIsland2 = new TreasureIsland2();
-            var optimalUtilization = new OptimalUtilization();
+            // var optimalUtilization = new OptimalUtilization();
+            var minCostToConnectRopes = new MinCostToConnectRopes();
             Console.ReadLine();
         }
     }
