@@ -55,7 +55,8 @@ namespace AlgorithmPlayground
             // var topNBuzzWords = new TopNBuzzWords();
             // var topNBuzzWordsVar1 = new TopNBuzzWordsVar1();
             // var treasureIsland = new TreasureIsland();
-            var treasureIsland2 = new TreasureIsland2();
+            // var treasureIsland2 = new TreasureIsland2();
+            var optimalUtilization = new OptimalUtilization();
             Console.ReadLine();
         }
     }
