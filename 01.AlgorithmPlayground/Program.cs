@@ -51,7 +51,11 @@ namespace AlgorithmPlayground
             // var matchsticksToSquare = new MatchsticksToSquare();
             // var smallestGoodBase = new SmallestGoodBaseClass();
             // var increasingSubsequences = new IncreasingSubsequences();
-            var zumaGame = new ZumaGame();
+            // var zumaGame = new ZumaGame();
+            // var topNBuzzWords = new TopNBuzzWords();
+            // var topNBuzzWordsVar1 = new TopNBuzzWordsVar1();
+            // var treasureIsland = new TreasureIsland();
+            var treasureIsland2 = new TreasureIsland2();
             Console.ReadLine();
         }
     }

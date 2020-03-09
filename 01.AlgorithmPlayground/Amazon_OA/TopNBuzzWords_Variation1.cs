@@ -6,9 +6,11 @@ using System.Collections.Generic;
 namespace AlgorithmPlayground
 {
     //https://leetcode.com/discuss/interview-question/460127/
-    public class TopNBuzzWords
+
+    //variation1: each toy word in a quote can only count 1, even if it appears multiple times 
+    public class TopNBuzzWordsVar1
     {
-        public TopNBuzzWords()
+        public TopNBuzzWordsVar1()
         {
             var numToys = 6;
             var topToys = 2;
@@ -29,15 +31,19 @@ namespace AlgorithmPlayground
         {
             var result = new List<string>();
             var dict = new Dictionary<string, int>();
-
+            var used = new HashSet<string>();
             foreach(var t in toys) {
                 dict[t.ToLower()] = 0;
             }
             foreach(var q in quotes){
                 var words = Regex.Split(q, @"\W");
-
+                used.Clear();
                 foreach(var w in words){
-                    if(dict.ContainsKey(w.ToLower())) dict[w.ToLower()]++;
+                    if(dict.ContainsKey(w.ToLower())
+                        && !used.Contains(w.ToLower())) {
+                            dict[w.ToLower()]++;
+                            used.Add(w.ToLower());
+                        }
                 }
             }
             var kvpList = dict.ToList();
