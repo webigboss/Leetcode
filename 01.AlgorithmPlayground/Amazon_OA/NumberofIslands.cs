@@ -7,7 +7,64 @@ namespace AlgorithmPlayground
 
         public NumberofIsLands()
         {
+            var rows = 5;
+            var columns = 6;
 
+            var grid = new int[,]{
+                {0,1,1,1,0,0},
+                {0,0,1,1,0,0},
+                {0,0,0,0,0,1},
+                {1,1,0,0,0,1},
+                {0,1,0,0,1,1},
+            };
+            var result = numberAmazonTreasureTrucks(rows, columns, grid);
+            
+        }
+
+        public int numberAmazonTreasureTrucks(int rows, int column, int[,] grid)
+        {
+            // WRITE YOUR CODE HERE
+            //rows: y, column: x
+
+            //iterative BFS with a queue
+
+            if (rows == 0 || column == 0) return 0;
+            var q = new Queue<int[]>();
+            var result = 0;
+            int curx, cury;
+            var neighours = new[]{
+             new [] {1, 0},
+             new [] {-1, 0},
+             new [] {0, 1},
+             new [] {0, -1}
+         };
+            for (var y = 0; y < rows; ++y)
+            {
+                for (var x = 0; x < column; ++x)
+                {
+                    if (grid[y, x] == 0) continue;
+                    q.Enqueue(new[] { x, y });
+                    while (q.Count > 0)
+                    {
+                        var item = q.Dequeue();
+                        curx = item[0];
+                        cury = item[1];
+                        if (grid[cury, curx] == 0) continue;
+                        grid[cury, curx] = 0;
+                        //boundary check
+                        foreach (var n in neighours)
+                        {
+                            if (curx + n[0] >= 0 && curx + n[0] < rows && cury + n[1] >= 0 && cury + n[1] < column
+                               && grid[cury + n[1], curx + n[0]] == 1)
+                            {
+                                q.Enqueue(new[] { curx + n[0], cury + n[1] });
+                            }
+                        }
+                    }
+                    result++;
+                }
+            }
+            return result;
         }
 
         public int NumIsLands_BFS_Iterative_Queue(char[][] grid)

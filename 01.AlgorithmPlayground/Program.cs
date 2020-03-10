@@ -57,7 +57,9 @@ namespace AlgorithmPlayground
             // var treasureIsland = new TreasureIsland();
             // var treasureIsland2 = new TreasureIsland2();
             // var optimalUtilization = new OptimalUtilization();
-            var minCostToConnectRopes = new MinCostToConnectRopes();
+            // var minCostToConnectRopes = new MinCostToConnectRopes();
+            var minimumHours = new MinimumHours();
+            // var numberofIslands = new NumberofIsLands();
             Console.ReadLine();
         }
     }
