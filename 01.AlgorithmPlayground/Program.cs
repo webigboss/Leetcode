@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Collections.Generic;
 
 namespace AlgorithmPlayground
 {
@@ -71,14 +72,17 @@ namespace AlgorithmPlayground
             heap.Enqueue(5);
             heap.Enqueue(3);
             heap.Enqueue(9);
-
-            var item = heap.Dequeue();
-            item = heap.Dequeue();
-            item = heap.Dequeue();
-            item = heap.Dequeue();
-            item = heap.Dequeue();
-            item = heap.Dequeue();
-
+            var list = new List<int>();
+            list.Add(heap.Dequeue());
+            list.Add(heap.Dequeue());
+            list.Add(heap.Dequeue());
+            list.Add(heap.Dequeue());
+            list.Add(heap.Dequeue());
+            list.Add(heap.Dequeue());
+            list.Add(heap.Dequeue());
+            list.Add(heap.Dequeue());
+            list.Add(heap.Dequeue());
+            
             Console.ReadLine();
         }
     }

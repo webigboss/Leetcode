@@ -74,21 +74,28 @@ namespace AlgorithmPlayground
             var i = 0;
             var il = LeftChild(i);
             var ir = RightChild(i);
-
-            while (il != -1 || ir != -1)
+            int ismall;
+            while (true)
             {
                 il = LeftChild(i);
                 ir = RightChild(i);
-                if (il != -1 && Comparer.Compare(_list[il], _list[i]) < 0)
+                if (il != -1 && ir != -1)
                 {
-                    Swap(i, il);
-                    i = il;
-                    continue;
+                    if (Comparer.Compare(_list[il], _list[ir]) <= 0)
+                        ismall = il;
+                    else
+                        ismall = ir;
                 }
-                if (ir != -1 && Comparer.Compare(_list[ir], _list[i]) < 0)
+                else if (il == -1 && ir != -1)
+                    ismall = ir;
+                else if (il != -1 && ir == -1)
+                    ismall = il;
+                else break;
+
+                if (Comparer.Compare(_list[ismall], _list[i]) < 0)
                 {
-                    Swap(i, ir);
-                    i = ir;
+                    Swap(ismall, i);
+                    i = ismall;
                     continue;
                 }
                 break;
