@@ -158,7 +158,7 @@
 225|Implement Stack using Queues|Easy|6/9/2019|Yes|Specific to problem|||Two Queue: TC: O(n)(Push), O(1)(Pop); One Queue: TC: O(n)(Push), O(1)(Pop)|
 238|Product of Array Except Self|Medium|6/9/2019|Inspired only by idea(developed code independently)|Specific to problem|||TC:O(n), SC: O(n); There is an optimal solution that with SC: O(1)|
 239|Sliding Window Maximum|Hard|6/9/2019|No|Deque|||TC:O(n^2), SC: O(n); the two pass linear solution is also worth checking: https://leetcode.com/problems/sliding-window-maximum/discuss/65881/O(n)-solution-in-Java-with-two-simple-pass-in-the-array|
-236|Lowest Common Ancestor of a Binary Tree|Medium|6/10/2019|Yes|DFS(Recursion)|||TC: O(n), SC: O(n); first time come up with a recursion with a return type, code is nice and tidy, bravo! there is iterative solution|
+236|Lowest Common Ancestor of a Binary Tree|Medium|6/10/2019|Yes|DFS(Recursion)||3/25/2020|TC: O(n), SC: O(n); first time come up with a recursion with a return type, code is nice and tidy, bravo! there is iterative solution|the revisit solution adjusted the logical order by bring the check for root ==p and root = q at the beginning of the method, which will elimiate unnecessary recursion make it more optimized;
 258|Add Digits|Easy|6/10/2019|Yes|Math|||TC: linear O(k), SC: O(1); there is a O(1) solution |
 263|Ugly Number|Easy|6/11/2019|Yes|Math||||
 264|Ugly Number II|Medium|6/11/2019|No|DP|||TC: O(n), SC: O(n)|
