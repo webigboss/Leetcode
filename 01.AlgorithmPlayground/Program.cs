@@ -62,28 +62,30 @@ namespace AlgorithmPlayground
             // var minimumHours = new MinimumHours();
             // var numberofIslands = new NumberofIsLands();
 
-            var heap = new Heap<int>();
-            heap.Enqueue(4);
-            heap.Enqueue(7);
-            heap.Enqueue(12);
-            heap.Enqueue(2);
-            heap.Enqueue(1);
-            heap.Enqueue(7);
-            heap.Enqueue(5);
-            heap.Enqueue(3);
-            heap.Enqueue(9);
-            var list = new List<int>();
-            list.Add(heap.Dequeue());
-            list.Add(heap.Dequeue());
-            list.Add(heap.Dequeue());
-            list.Add(heap.Dequeue());
-            list.Add(heap.Dequeue());
-            list.Add(heap.Dequeue());
-            list.Add(heap.Dequeue());
-            list.Add(heap.Dequeue());
-            list.Add(heap.Dequeue());
-            
-            Console.ReadLine();
+            // var heap = new Heap<int>();
+            // heap.Enqueue(4);
+            // heap.Enqueue(7);
+            // heap.Enqueue(12);
+            // heap.Enqueue(2);
+            // heap.Enqueue(1);
+            // heap.Enqueue(7);
+            // heap.Enqueue(5);
+            // heap.Enqueue(3);
+            // heap.Enqueue(9);
+            // var list = new List<int>();
+            // list.Add(heap.Dequeue());
+            // list.Add(heap.Dequeue());
+            // list.Add(heap.Dequeue());
+            // list.Add(heap.Dequeue());
+            // list.Add(heap.Dequeue());
+            // list.Add(heap.Dequeue());
+            // list.Add(heap.Dequeue());
+            // list.Add(heap.Dequeue());
+            // list.Add(heap.Dequeue());
+
+            var completeKnapsack = new CompleteKnapsack();
+            // var zeroOneKnapsack = new ZeroOneKnapsack();
+            // Console.ReadLine();
         }
     }
 }
