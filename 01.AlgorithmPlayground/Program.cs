@@ -83,8 +83,9 @@ namespace AlgorithmPlayground
             // list.Add(heap.Dequeue());
             // list.Add(heap.Dequeue());
 
-            var completeKnapsack = new CompleteKnapsack();
+            // var completeKnapsack = new CompleteKnapsack();
             // var zeroOneKnapsack = new ZeroOneKnapsack();
+            var coinChange = new CoinChange();
             // Console.ReadLine();
         }
     }
