@@ -86,8 +86,10 @@ namespace AlgorithmPlayground
             // var completeKnapsack = new CompleteKnapsack();
             // var zeroOneKnapsack = new ZeroOneKnapsack();
             // var coinChange = new CoinChange();
-            var findGroupsOfAnagrams = new FindGroupsOfAnagrams();
+            //var findGroupsOfAnagrams = new FindGroupsOfAnagrams();
             // Console.ReadLine();
+            //var beautifulArrangement = new BeautifulArrangement();
+            var minesweeper = new Minesweeper();
         }
     }
 }
