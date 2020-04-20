@@ -89,7 +89,9 @@ namespace AlgorithmPlayground
             //var findGroupsOfAnagrams = new FindGroupsOfAnagrams();
             // Console.ReadLine();
             //var beautifulArrangement = new BeautifulArrangement();
-            var minesweeper = new Minesweeper();
+            // var minesweeper = new Minesweeper();
+            // var fractionAddSubtract = new FractionAdditionandSubtraction();
+            var frogCroaking = new FrogCroaking();
         }
     }
 }
