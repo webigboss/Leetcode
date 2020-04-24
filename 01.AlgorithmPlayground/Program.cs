@@ -91,7 +91,8 @@ namespace AlgorithmPlayground
             //var beautifulArrangement = new BeautifulArrangement();
             // var minesweeper = new Minesweeper();
             // var fractionAddSubtract = new FractionAdditionandSubtraction();
-            var frogCroaking = new FrogCroaking();
+            // var frogCroaking = new FrogCroaking();
+            var MaximumLengthofPairChain = new MaximumLengthofPairChain();
         }
     }
 }
