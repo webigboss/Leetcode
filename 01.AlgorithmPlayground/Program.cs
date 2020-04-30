@@ -92,7 +92,11 @@ namespace AlgorithmPlayground
             // var minesweeper = new Minesweeper();
             // var fractionAddSubtract = new FractionAdditionandSubtraction();
             // var frogCroaking = new FrogCroaking();
-            var MaximumLengthofPairChain = new MaximumLengthofPairChain();
+            // var MaximumLengthofPairChain = new MaximumLengthofPairChain();
+            var magicDict = new MagicDictionary();
+            magicDict.BuildDict(new []{"hello", "leetcode"});
+            var result = magicDict.Search("hhllo");
+             result = magicDict.Search("hell");
         }
     }
 }
