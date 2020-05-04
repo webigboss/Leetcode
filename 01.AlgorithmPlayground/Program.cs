@@ -98,7 +98,19 @@ namespace AlgorithmPlayground
             // var result = magicDict.Search("hhllo");
             //  result = magicDict.Search("hell");
             // var validPalindrome = new ValidPalindromeII();
-            var repeatedStringMatch = new RepeatedStringMatch();
+            // var repeatedStringMatch = new RepeatedStringMatch();
+            var mylist = new MyLinkedList();
+            mylist.AddAtHead(7);
+            mylist.AddAtHead(2);
+            mylist.AddAtHead(1);
+            mylist.AddAtIndex(3,0);
+            mylist.DeleteAtIndex(3);
+            mylist.AddAtHead(6);
+            mylist.AddAtTail(4);
+            var getindex = mylist.Get(4);
+            mylist.AddAtHead(4);
+            mylist.AddAtIndex(5,0);
+            mylist.AddAtHead(6);
         }
     }
 }
