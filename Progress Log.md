@@ -567,3 +567,47 @@
 844|Backspace String Compare|Easy|2020/5/26|Yes|Stack|||Stack: TC: O(n+m), SC: O(n+m)|use 2 stacks
 845|Longest Mountain in Array|Medium|2020/5/26|Yes|Two Passes|||Two Passes: TC:O(n), SC:O(n)|two pass, one for all ascending intervals, one for descending intervals
 846|Hand of Straights|Medium|2020/5/26|Yes|Array|||Array: TC:O(nlogn), SC: O(n)|Array: 1. sort the array, define a bool array to mark visited node, 2. use two pointers appraoch to interate the array;
+846|Hand of Straights|Medium|2020/5/26|Yes|Array|||Array: TC:O(nlogn), SC: O(n)|Array: 1. sort the array, define a bool array to mark visited node, 2. use two pointers appraoch to interate the array;
+848|Shifting Letters|Medium|2020/5/27|Yes|string|||String: TC:O(n), SC:O(n)|Trivial
+849|Maximize Distance to Closest Person|Easy|2020/5/27|Yes|array|||Array: TC:O(n), SC: O(1)|Trivial
+851|Loud and Rich|Medium|2020/5/27|Yes|DFS(Iterative)|||DFS(Iterative): TC: O(v+e), SC: O(v)|DFS(Iterative): build a dictionary from poorer people to richer people, and DFS use a stack
+852|Peak Index in a Mountain Array|Easy|2020/5/27|Yes|Binary Search|⭐️||Binary Search: TC: O(logn); SC: O(1)|Binary Search: notice the fact before the peak(include the peak), A[i]-A[i-1] > 0, after the peak A[i]-A[i-1] < 0;
+853|Car Fleet|Medium|2020/5/28|Yes|Sort|||Sort: TC:O(nlogn); SC:O(n)|Sort: build a array of position->time spent to target, sort it by the position and iterate from the back, when current time to target is greater than the max time we've meet so far, means it will never catch previous car, hence advance the answer;
+855|Exam Room|Medium|2020/5/28|Yes|Sort|||Sort: TC:O(nlogn); SC:O(n)|similar to 845
+856|Score of Parentheses|Medium|2020/5/28|Yes|Stack|⭐️||Stack: TC: O(n), SC: O(n)|Stack: 1. define a stack of int, push 0 into it when meet a opening parentheses, pop the top number when meet a closing parentheses, and add the number * 2 to the new top of the stack, if the poped value is 0, then add 1 ; 2.add an additional item into the stack to collect the answer, also make sure we will never run into a case of popping an empty stack;
+858|Mirror Reflection|Medium|2020/5/28|Yes|Math|||Math: TC: O(1), SC:O(1)|Math: 1. key is to calculate the greatest common divisior(GCD) of p and q, and then we can get the least common multiple (lcm) = gcd*q*p; 2. then it's a matter of modular calculation
+859|Buddy Strings|Easy|2020/5/29|Yes|String|||String: TC:O(n), SC:O(n)|Trivial 
+860|Lemonade Change|Easy|2020/5/29|Yes|Array|||Array: TC:O(n), SC: O(1)|Trivial
+861|Score After Flipping Matrix|Medium|2020/5/29|No|Greedy+Bit Manipulation|⭐️||Greedy+Bit Manipulation: TC:O(n*m), SC: O(1)|Official sol2
+1460|Make Two Arrays Equal by Reversing Sub-arrays|Easy|2020/5/30|Yes|Array|||Array: TC:O(n), SC: O(n)|Trivial
+1461|Check If a String Contains All Binary Codes of Size K|Medium|2020/5/30|Yes|HashSet|||HashSet: TC: O(n), SC: O(n)|Trivial
+1462|Course Schedule IV|Medium|2020/5/30|Yes|DP(Top Down)|||DP(Top-down): O(n*m), SC: O(n*m)|top down dp optimized by adding memo from DFS recursion
+1464|Maximum Product of Two Elements in an Array|Easy|2020/5/30|Yes|array|||Array: TC:O(n), SC: O(1)|Trivial
+1465|Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts|Medium|2020/5/30|Yes|Array+Sort|||Array: TC:O(nlogn+mlogm), SC: O(1)|Trivial
+1466|Reorder Routes to Make All Paths Lead to the City Zero|Medium|2020/5/30|Yes|DFS(Recursion)|||DFS(Iterative): TC: O(v+e), SC: O(v)|DFS(iterative): only difference when building the dictionary for the all the egdes, record all the edges with a way to tell it's directions, so that when doing the DFS, record all the edges that were originally in the oppisite direction;
+863|All Nodes Distance K in Binary Tree|Medium|2020/5/31|Yes|BFS(Queue)|||BFS(Queue): TC: O(v+e), SC: O(v)|BFS(Queue): build a dictionary for edges for this binary tree and BFS typically;
+865|Smallest Subtree with all the Deepest Nodes|Medium|2020/5/31|Yes|Recursion|||Recursion: TC: O(n), SC:O(n)|Recursion: 1. first get the max depth of the tree; 2. create a helper method and call it recurively to check if left and right result are equal and equals to the maxHeight;
+867|Transpose Matrix|Easy|2020/6/1|Yes|Array|||Array: TC:O(n*m), SC: O(1)|Array: 1. just iterate the array column first then row;
+868|Binary Gap|Easy|2020/6/1|Yes|Math|||Math: TC: O(logn), SC:O(1)|Math: use Math.Log(n,2) to get the 1 in the N's binary representation
+866|Prime Palindrome|Medium|2020/6/1|No|Math|||Math: TC: O(N), SC:O(LogN)|Math: official sol 2;
+869|Reordered Power of 2|Medium|2020/6/2|Yes|Math|||Math: TC: O(n); SC:O(1)|Math: try every power of 2 from 0 to 29, since 2^30 > 10^9, and check the count of char of the string prepresentation of the number; 
+870|Advantage Shuffle|Medium|2020/6/2|Yes|Greedy|||Greedy: TC: O(nlogn), SC:O(n)|Greedy: 1. create a pair array of element of B and its index, a bool array; 2. sort the pair array and A; 3. have 2 pass, like a two pointers appraoch, if A[i] > B[j], then advance both pointer, otherwise just advance I, the 2nd pass just place those element in A that hasn't been placed, from j;
+872|Leaf-Similar Trees|Easy|2020/6/2|Yes|Recursion|||Recursion: TC: O(n), SC:O(n)|Trivial 
+874|Walking Robot Simulation|Easy|2020/6/3|Yes|Simulation+HashSet|👎||Simulation+HashSet: TC: O(N+K), SC:O(K)|Simulation: use HashSet and iteration to get the next obstacle's coordinate of on x axis or y axis;
+873|Length of Longest Fibonacci Subsequence|Medium|2020/6/3|No|HashSet|||HashSet: TC: O(n^2logn), SC:O(n)|Hashset: official sol 1, have a n^2 iteration from left of the array, use A[i] and A[j] as the starting pair to keep checking if the next fibonacci number exists in the HashSet; the checking time complexity is logn due the exponential nature of fibonacci sequence;
+875|Koko Eating Bananas|Medium|2020/6/3|Yes|Specific to problem|||TC: O(n*m); SC: O(1)|the min possible of K is the (sum+H-1)/H to the max: max of piles[i], iterate from the min to max and return the first qualified answer;
+876|Middle of the Linked List|Easy|2020/6/4|Yes|LinkedList|||TC: O(n); SC: O(1)|Trivial 
+877|Stone Game|Medium|2020/6/4|No|DP(Top Down)|⭐️||DP(Bottom up): TC: O(n^2), SC:O(n^2)|DP(Top down): refer official sol1, the inspiration is for DP top down recursion, we should build the memo array from a narrower scope to wider, that means we should never passing accumulative values from higher level recursion to lower level, check my recursion solution which passed the score of previous recursion, in that way we will never be able to succesfully build the DP. 
+880|Decoded String at Index|Medium|2020/6/5|Yes|Specific to problem|||TC:O(n), SC:O(1)|official sol1
+881|Boats to Save People|Medium|2020/6/5|Yes|Greedy+Hashtable|||Greedy+HashTable: TC:O(n), SC:O(n)|Greedy+Hashtable: 1. collect all the peoples into the Dictionary by count; 2. Greedily allocate the people to the boat try to fix the boat by its limit, or not, descrease the limit by 1 and so on;
+883|Projection Area of 3D Shapes|Easy|2020/6/12|Yes|Array|||Array: TC: O(n*m), SC: O(1)|Trivial
+884|Uncommon Words from Two Sentences|Easy|2020/6/12|Yes|Hashtable|||Hashtable: TC: O(n+m), SC: O(n+m)|Trivial
+885|Spiral Matrix III|Medium|2020/6/12|Yes|Simulation|👎||Simulation: TC: O(R*C), SC: O(1)|Trivial
+886|Possible Bipartition|Medium|2020/6/13|Inspired only by idea(developed code independently)|BFS(Queue)|||BFS(Queue): TC: O(N+E), SC: O(N+E), E: dislikes.Length|BFS(Queue): imagine doing a BFS search and coloring the vertices with red and blue, if we encounter a non colored vertice, color it, if encounter one with the same color, skip it, if encounter one with the opposit color, return false;
+888|Fair Candy Swap|Easy|2020/6/14|Yes|Array|||Array: TC:O(n*m), SC: O(1)|Trivial
+889|Construct Binary Tree from Preorder and Postorder Traversal|Medium|2020/6/15|No|Tree(Recursion)|||Tree(Recursion): O(n); SC:O(n)|official sol1
+890|Find and Replace Pattern|Medium|2020/6/18|Yes|Hashtable(use Array)|||Hashtable(use array): TC:O(n*m), SC:O(1)|Hashtable(use array): define 1 subroutine to check if 2 strings are match pattern, in that function, use a int[26] to map a char in to a char in b, use a bool[26] to mark if a char in b is already mapped to some char in a;
+892|Surface Area of 3D Shapes|Easy|2020/6/24|Yes|Array|||Array: TC:O(n^2*h), SC: O(1)|Array: 1. calculate the surface from looking downwards and upwards, which is easy; 2. record the maxHeight from pervious iteration, and then iterate at each height, what's the suface vertically;
+893|Groups of Special-Equivalent Strings|Easy|2020/6/24|Yes|HashSet|||HashSet: TC: O(n*m), SC: O(n)|HashSet: serialize the string in A into a sorted char of even original index followed by odd original index, separated by a pipe char, add the serialized string into a hashset, the count of the hashset will be the answer
+894|All Possible Full Binary Trees|Medium|2020/6/25|Yes|Recursion|||Recursion: Exponential|Recursion: 1. for a given N, the possible solution are all the combinations of leftN + rightN = N, and both leftN and rightN are odd; 2. recursively call the same metod by passing leftN and rightN into the method. 3. and build a tree from result from left and right recursion;
+896|Monotonic Array|Easy|2020/6/25|Yes|Array|||Array: TC: O(n), SC: O(1)|Trivial 
