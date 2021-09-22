@@ -99,11 +99,14 @@ namespace AlgorithmPlayground
             //  result = magicDict.Search("hell");
             // var validPalindrome = new ValidPalindromeII();
             // var repeatedStringMatch = new RepeatedStringMatch();
-            var parentChildGraph = new ParentChildGraph();
-            parentChildGraph.Test_GetNodesWithZeroOrOneParents();
-            parentChildGraph.Test_HaveCommonAncestor();
-            var courseSelecting = new CourseSelecting();
-            courseSelecting.Test_SameCourceBetweenTwo();
+            // var parentChildGraph = new ParentChildGraph();
+            // parentChildGraph.Test_GetNodesWithZeroOrOneParents();
+            // parentChildGraph.Test_HaveCommonAncestor();
+            // var courseSelecting = new CourseSelecting();
+            // courseSelecting.Test_SameCourceBetweenTwo();
+            var snackOnBoard = new SnackOnBoard();
+            // snackOnBoard.Test_FindPassableLanes();
+            snackOnBoard.Test_FindNearestExit();
         }
     }
 }
