@@ -104,9 +104,12 @@ namespace AlgorithmPlayground
             // parentChildGraph.Test_HaveCommonAncestor();
             // var courseSelecting = new CourseSelecting();
             // courseSelecting.Test_SameCourceBetweenTwo();
-            var snackOnBoard = new SnackOnBoard();
+            // var snackOnBoard = new SnackOnBoard();
             // snackOnBoard.Test_FindPassableLanes();
-            snackOnBoard.Test_FindNearestExit();
+            // snackOnBoard.Test_FindNearestExit();
+            var meetingIntervals = new MeetingIntervals();
+            // meetingIntervals.Test_IfAvailable();
+            meetingIntervals.Test_FindAllAvailableIntervals();
         }
     }
 }
