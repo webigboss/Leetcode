@@ -102,16 +102,16 @@ namespace AlgorithmPlayground
             // var parentChildGraph = new ParentChildGraph();
             // parentChildGraph.Test_GetNodesWithZeroOrOneParents();
             // parentChildGraph.Test_HaveCommonAncestor();
-            // var courseSelecting = new CourseSelecting();
-            // courseSelecting.Test_SameCourceBetweenTwo();
+            var courseSelecting = new CourseSelecting();
+            courseSelecting.Test_SameCourceBetweenTwo();
             // var snackOnBoard = new SnackOnBoard();
             // snackOnBoard.Test_FindPassableLanes();
             // snackOnBoard.Test_FindNearestExit();
             // var meetingIntervals = new MeetingIntervals();
             // meetingIntervals.Test_IfAvailable();
             // meetingIntervals.Test_FindAllAvailableIntervals();
-            var wordWrap = new WordWrap();
-            wordWrap.Test_BalanceWordWrap();
+            // var wordWrap = new WordWrap();
+            // wordWrap.Test_BalanceWordWrap();
         }
     }
 }
