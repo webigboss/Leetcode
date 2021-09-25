@@ -107,9 +107,11 @@ namespace AlgorithmPlayground
             // var snackOnBoard = new SnackOnBoard();
             // snackOnBoard.Test_FindPassableLanes();
             // snackOnBoard.Test_FindNearestExit();
-            var meetingIntervals = new MeetingIntervals();
+            // var meetingIntervals = new MeetingIntervals();
             // meetingIntervals.Test_IfAvailable();
-            meetingIntervals.Test_FindAllAvailableIntervals();
+            // meetingIntervals.Test_FindAllAvailableIntervals();
+            var wordWrap = new WordWrap();
+            wordWrap.Test_BalanceWordWrap();
         }
     }
 }
