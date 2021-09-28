@@ -114,8 +114,10 @@ namespace AlgorithmPlayground
             // wordWrap.Test_BalanceWordWrap();
             // var countCharactersOfAllSubstring = new CountCharacterOfAllSubString();
             // countCharactersOfAllSubstring.Test();
-            var amazonOA_IsValidString = new AmazonOA_IsValidString();
-            amazonOA_IsValidString.Test();
+            // var amazonOA_IsValidString = new AmazonOA_IsValidString();
+            // amazonOA_IsValidString.Test();
+            var minCoinFlips = new AmazonOA_MinimumCoinFlips();
+            minCoinFlips.Test();
         }
     }
 }
