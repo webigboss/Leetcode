@@ -112,8 +112,10 @@ namespace AlgorithmPlayground
             // meetingIntervals.Test_FindAllAvailableIntervals();
             // var wordWrap = new WordWrap();
             // wordWrap.Test_BalanceWordWrap();
-            var countCharactersOfAllSubstring = new CountCharacterOfAllSubString();
-            countCharactersOfAllSubstring.Test();
+            // var countCharactersOfAllSubstring = new CountCharacterOfAllSubString();
+            // countCharactersOfAllSubstring.Test();
+            var amazonOA_IsValidString = new AmazonOA_IsValidString();
+            amazonOA_IsValidString.Test();
         }
     }
 }
