@@ -9,7 +9,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/01.AlgorithmPlayground/bin/Debug/netcoreapp2.2/AlgorithmPlayground.dll",
+            "program": "${workspaceFolder}/01.AlgorithmPlayground/bin/Debug/netcoreapp2.1/AlgorithmPlayground.dll",
             "args": [],
             "cwd": "${workspaceFolder}/01.AlgorithmPlayground/",
             "console": "internalConsole",
