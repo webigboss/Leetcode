@@ -116,8 +116,10 @@ namespace AlgorithmPlayground
             // countCharactersOfAllSubstring.Test();
             // var amazonOA_IsValidString = new AmazonOA_IsValidString();
             // amazonOA_IsValidString.Test();
-            var minCoinFlips = new AmazonOA_MinimumCoinFlips();
-            minCoinFlips.Test();
+            // var minCoinFlips = new AmazonOA_MinimumCoinFlips();
+            // minCoinFlips.Test();
+            var findMaxSumOfPairsInLinkedList = new AmazonOA_FindMaxSumOfPairsInALinkedList();
+            findMaxSumOfPairsInLinkedList.Test();
         }
     }
 }
