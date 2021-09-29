@@ -118,8 +118,10 @@ namespace AlgorithmPlayground
             // amazonOA_IsValidString.Test();
             // var minCoinFlips = new AmazonOA_MinimumCoinFlips();
             // minCoinFlips.Test();
-            var findMaxSumOfPairsInLinkedList = new AmazonOA_FindMaxSumOfPairsInALinkedList();
-            findMaxSumOfPairsInLinkedList.Test();
+            // var findMaxSumOfPairsInLinkedList = new AmazonOA_FindMaxSumOfPairsInALinkedList();
+            // findMaxSumOfPairsInLinkedList.Test();
+            var topKCombination = new AmazonOA_TopKCombinationSum();
+            topKCombination.Test();
         }
     }
 }
