@@ -120,8 +120,12 @@ namespace AlgorithmPlayground
             // minCoinFlips.Test();
             // var findMaxSumOfPairsInLinkedList = new AmazonOA_FindMaxSumOfPairsInALinkedList();
             // findMaxSumOfPairsInLinkedList.Test();
-            var topKCombination = new AmazonOA_TopKCombinationSum();
-            topKCombination.Test();
+            // var topKCombination = new AmazonOA_TopKCombinationSum();
+            // topKCombination.Test();
+            // var passwordStrength = new AmazonOA_07_PasswordStrength();
+            // passwordStrength.Test();
+            var minadjescentSwap = new AmazonOA_08_MinimumAdjescentSwapToSortBinaryString();
+            minadjescentSwap.Test();
         }
     }
 }
