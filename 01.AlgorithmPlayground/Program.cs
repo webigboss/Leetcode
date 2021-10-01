@@ -124,8 +124,14 @@ namespace AlgorithmPlayground
             // topKCombination.Test();
             // var passwordStrength = new AmazonOA_07_PasswordStrength();
             // passwordStrength.Test();
-            var minadjescentSwap = new AmazonOA_08_MinimumAdjescentSwapToSortBinaryString();
-            minadjescentSwap.Test();
+            // var minadjescentSwap = new AmazonOA_08_MinimumAdjescentSwapToSortBinaryString();
+            // minadjescentSwap.Test();
+            // var insertAndViewItems = new AmazonOA_09_InsertAndViewNextItem();
+            // insertAndViewItems.Test();
+            // var numberOfWays = new AmazonOA_10_NumberOfWays();
+            // numberOfWays.Test();
+            var maxDifferenceOfNumbersInSubArray = new AmazonOA_11_MaxDifferenceOfNumbersInSubarray();
+            maxDifferenceOfNumbersInSubArray.Test();
         }
     }
 }
