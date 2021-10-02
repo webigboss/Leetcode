@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 // https://leetcode.com/discuss/interview-question/1495982/Amazon-OA
-public class AmazonOA_13_MergeConsecutiveIntervals
+public class AmazonOA_12_MergeConsecutiveIntervals
 {
 
     public void Test()
