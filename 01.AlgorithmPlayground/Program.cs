@@ -130,8 +130,10 @@ namespace AlgorithmPlayground
             // insertAndViewItems.Test();
             // var numberOfWays = new AmazonOA_10_NumberOfWays();
             // numberOfWays.Test();
-            var maxDifferenceOfNumbersInSubArray = new AmazonOA_11_MaxDifferenceOfNumbersInSubarray();
-            maxDifferenceOfNumbersInSubArray.Test();
+            // var maxDifferenceOfNumbersInSubArray = new AmazonOA_11_MaxDifferenceOfNumbersInSubarray();
+            // maxDifferenceOfNumbersInSubArray.Test();
+            var mergeConsecutiveIntervals = new AmazonOA_13_MergeConsecutiveIntervals();
+            mergeConsecutiveIntervals.Test();
         }
     }
 }
