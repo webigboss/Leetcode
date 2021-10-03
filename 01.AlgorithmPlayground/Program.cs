@@ -134,8 +134,10 @@ namespace AlgorithmPlayground
             // maxDifferenceOfNumbersInSubArray.Test();
             // var mergeConsecutiveIntervals = new AmazonOA_12_MergeConsecutiveIntervals();
             // mergeConsecutiveIntervals.Test();
-            var reverseAndDedupList = new AmazonOA_13_ReverseAndDedupList();
-            reverseAndDedupList.Test();
+            // var reverseAndDedupList = new AmazonOA_13_ReverseAndDedupList();
+            // reverseAndDedupList.Test();
+            var countOfSubarrayOfUniqueDecreasingSubarray = new AmazonOA_14_FindCountOfSubarrayOfAllUniqueDecreasingSubarray();
+            countOfSubarrayOfUniqueDecreasingSubarray.Test();
         }
     }
 }
