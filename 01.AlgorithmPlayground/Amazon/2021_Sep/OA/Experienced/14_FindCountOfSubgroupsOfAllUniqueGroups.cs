@@ -2,7 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-//https://www.1point3acres.com/bbs/thread-803925-1-1.html
+// https://www.1point3acres.com/bbs/thread-803925-1-1.html
+// https://www.1point3acres.com/bbs/thread-804327-1-1.html has screenshot
 public class AmazonOA_14_FindCountOfSubarrayOfAllUniqueDecreasingSubarray {
     public void Test(){
         int[] arr;

@@ -136,12 +136,12 @@ namespace AlgorithmPlayground
             // mergeConsecutiveIntervals.Test();
             // var reverseAndDedupList = new AmazonOA_13_ReverseAndDedupList();
             // reverseAndDedupList.Test();
-            // var countOfSubarrayOfUniqueDecreasingSubarray = new AmazonOA_14_FindCountOfSubarrayOfAllUniqueDecreasingSubarray();
-            // countOfSubarrayOfUniqueDecreasingSubarray.Test();
+            var countOfSubarrayOfUniqueDecreasingSubarray = new AmazonOA_14_FindCountOfSubarrayOfAllUniqueDecreasingSubarray();
+            countOfSubarrayOfUniqueDecreasingSubarray.Test();
             // var maxTransferQuality = new AmazonOA_15_FindMaximumTransferQuality();
             // maxTransferQuality.Test();
-            var maxRoundTripDistance = new AmazonOA_16_MaxRoundTripDistanceNotExceedsMaxLength();
-            maxRoundTripDistance.Test();
+            // var maxRoundTripDistance = new AmazonOA_16_MaxRoundTripDistanceNotExceedsMaxLength();
+            // maxRoundTripDistance.Test();
         }
     }
 }
