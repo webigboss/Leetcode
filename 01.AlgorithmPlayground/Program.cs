@@ -142,8 +142,8 @@ namespace AlgorithmPlayground
             // maxTransferQuality.Test();
             // var maxRoundTripDistance = new AmazonOA_16_MaxRoundTripDistanceNotExceedsMaxLength();
             // maxRoundTripDistance.Test();
-            new Google_FR_TopKFrequencyElement().Test();
-
+            // new Google_FR_TopKFrequencyElement().Test();
+            new Google_FR_LargestPalindromicNumberAfterChange().Test();
         }
     }
 }
