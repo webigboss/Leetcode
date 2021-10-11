@@ -143,7 +143,8 @@ namespace AlgorithmPlayground
             // var maxRoundTripDistance = new AmazonOA_16_MaxRoundTripDistanceNotExceedsMaxLength();
             // maxRoundTripDistance.Test();
             // new Google_FR_TopKFrequencyElement().Test();
-            new Google_FR_LargestPalindromicNumberAfterChange().Test();
+            // new Google_FR_LargestPalindromicNumberAfterChange().Test();
+            new Wayfair_VO_CouponAndCategory().Test();
         }
     }
 }
