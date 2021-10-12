@@ -144,7 +144,8 @@ namespace AlgorithmPlayground
             // maxRoundTripDistance.Test();
             // new Google_FR_TopKFrequencyElement().Test();
             // new Google_FR_LargestPalindromicNumberAfterChange().Test();
-            new Wayfair_VO_CouponAndCategory().Test();
+            // new Wayfair_VO_CouponAndCategory().Test();
+            new Wayfare_VO_AddNumbers().Test();
         }
     }
 }
