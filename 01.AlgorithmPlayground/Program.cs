@@ -145,7 +145,9 @@ namespace AlgorithmPlayground
             // new Google_FR_TopKFrequencyElement().Test();
             // new Google_FR_LargestPalindromicNumberAfterChange().Test();
             // new Wayfair_VO_CouponAndCategory().Test();
-            new Wayfare_VO_AddNumbers().Test();
+            // new Wayfare_VO_AddNumbers().Test();
+            // new Expedia_VO_01_IsPrime().Test();
+            new FB_01_DeleteAndGetLeave().Test();
         }
     }
 }
